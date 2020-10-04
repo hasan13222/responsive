@@ -1,0 +1,439 @@
+
+
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	.sidebar_wrapper .identity_wrapper h2{
+		margin-bottom:0px;
+		
+	}
+	.sidebar_wrapper .identity_wrapper h4{
+		margin-top:0px;
+		
+	}
+	.section2_wrapper{
+		margin-left:0px;
+	}
+	.section2_wrapper .section2_mid{
+		margin-left:-23px;
+	}
+	.section2_wrapper .section2_right .section2_right_top{
+		margin-left:-23px;
+	}
+	.section2_wrapper .section2_right .section2_right_bottom{
+		margin-left:-23px;
+	}
+}
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+
+@media only screen and (min-width: 768px) and (max-width: 960px){
+.sidebar_wrapper .identity_wrapper h2 name{
+	font-size:22px;
+}
+}
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+.fix_container{
+	width:98%;
+}
+.header2_wrapper ul{
+	display:inline-block;
+}
+.header2_wrapper ul li{
+	float:none;
+}
+.header3_wrapper .header3_left{
+	float:none;
+	position:unset;
+}
+.section1_wrapper_bg .section1_right .img_wrapper{
+	width:98%;
+}
+.section2_wrapper_bg .section2_left{
+	display:none;
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_left{
+	width:98%l
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_right{
+	margin-bottom:30px;
+}
+.header2_wrapper{
+	margin:0 auto;
+}
+.header2_wrapper ul li a{
+	font-size:12px;
+}
+.section1_wrapper_bg .section1_left{
+	width:98%;
+	margin:0 auto;
+}
+.section1_wrapper_bg .section1_right{
+	width:98%;
+	margin:0 auto;
+}
+.section2_wrapper_bg .section2_left{
+	width:98%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.section2_wrapper_bg .section2_right {
+
+    float: none;
+    margin: 20px auto;
+    width: 225px;
+
+}
+.section2_wrapper_bg .section2_bottom{
+	width:98%;
+	margin:0 auto;
+	margin-bottom:15px;
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_left {
+
+    float: none;
+    width: 320px;
+    margin: 0 auto;
+
+}
+.header3_wrapper .header3_left h1{
+	text-align:center;
+}
+.header3_wrapper .header3_left h6{
+	text-align:center;
+}
+.header3_wrapper .header3_right{
+	float:none;
+	margin:0 11%;
+	text-align:center;
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_left h2{
+    font-size: 26px;
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_left h6{
+    font-size: 14x;
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_right h2{
+	font-size:22px;
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_right {
+
+    float: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+
+}
+.section3_wrapper_bg {
+    margin: 0 auto;
+    width: 98%;
+}
+.section3_wrapper_bg .section3_part{
+	margin:0 15%;
+}
+.footer_wrapper_bg{
+	width:98%;
+	margin:0 auto;
+}
+.footer_wrapper_bg .footer_left{
+	float:none;
+	text-align:center;
+}
+.footer_wrapper_bg .footer_right{
+	float:none;
+}
+.footer_wrapper_bg .footer_right p{
+	text-align:center;
+}
+.header1_wrapper .header1_left{
+	float:none;
+	text-align:center;
+}
+.header1_wrapper .header1_right{
+	float:none;
+	display:block;
+	overflow:hidden;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+.header1_left_wrapper {
+
+    overflow: hidden;
+    width: 98%;
+    text-align: center;
+
+}
+.header1_wrapper .header1_left{
+	display:block;
+	overflow:hidden;
+	margin:20px auto;
+}
+.header2_wrapper {
+
+    width: 93%;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+
+}
+.section2_right_wrapper {
+
+    text-align: center;
+    width: 98%;
+    display: block;
+    overflow: hidden;
+
+}
+.section2_wrapper_bg .section2_right{
+	float:none;
+}
+.section3_wrapper_bg .section3_part{
+	float:none;
+	margin:0 auto;
+}
+
+.section3_wrapper {
+
+    width: 98%;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.section3_wrapper_bg .section3_part h4{
+	margin-bottom:30px;
+}
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.fix_container{
+	width:98%;
+}
+.header2_wrapper ul{
+	display:inline-block;
+}
+.header2_wrapper ul li{
+	float:none;
+}
+.header3_wrapper .header3_left{
+	float:none;
+	position:unset;
+}
+.section1_wrapper_bg .section1_right .img_wrapper{
+	width:98%;
+}
+.section2_wrapper_bg .section2_left{
+	display:none;
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_left{
+	width:98%l
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_right{
+	margin-bottom:30px;
+}
+.header2_wrapper{
+	margin:0 auto;
+}
+.header2_wrapper ul li a{
+	font-size:12px;
+}
+.section1_wrapper_bg .section1_left{
+	width:98%;
+	margin:0 auto;
+}
+.section1_wrapper_bg .section1_right{
+	width:98%;
+	margin:0 auto;
+}
+.section2_wrapper_bg .section2_left{
+	width:98%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.section2_wrapper_bg .section2_right {
+
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+
+}
+.section2_wrapper_bg .section2_bottom{
+	width:98%;
+	margin:0 auto;
+	margin-bottom:15px;
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_left {
+
+    float: none;
+    width: 420px;
+    margin: 0 auto;
+
+}
+.header3_wrapper .header3_left h1{
+	text-align:center;
+}
+.header3_wrapper .header3_left h6{
+	text-align:center;
+}
+.header3_wrapper .header3_right{
+	float:none;
+	margin:0 11%;
+	text-align:center;
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_left h2{
+    font-size: 26px;
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_left h6{
+    font-size: 14x;
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_right h2{
+	font-size:22px;
+}
+.section2_wrapper_bg .section2_bottom .section2_bottom_right {
+
+    float: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+
+}
+.section3_wrapper_bg {
+    margin: 0 auto;
+    width: 98%;
+}
+.section3_wrapper_bg .section3_part{
+	margin:0 15%;
+}
+.footer_wrapper_bg{
+	width:98%;
+	margin:0 auto;
+}
+.footer_wrapper_bg .footer_left{
+	float:none;
+	text-align:center;
+}
+.footer_wrapper_bg .footer_right{
+	float:none;
+}
+.footer_wrapper_bg .footer_right p{
+	text-align:center;
+}
+.header1_wrapper .header1_left{
+	float:none;
+	text-align:center;
+}
+.header1_wrapper .header1_right{
+	float:none;
+	display:block;
+	overflow:hidden;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+.header1_left_wrapper {
+
+    overflow: hidden;
+    width: 98%;
+    text-align: center;
+
+}
+.header1_wrapper .header1_left{
+	display:block;
+	overflow:hidden;
+	margin:20px auto;
+}
+.header2_wrapper {
+
+    width: 93%;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+
+}
+.section2_right_wrapper {
+
+    text-align: center;
+    width: 98%;
+    display: block;
+    overflow: hidden;
+
+}
+.section2_wrapper_bg .section2_right{
+	float:none;
+}
+.section3_wrapper_bg .section3_part{
+	float:none;
+	margin:0 auto;
+}
+.section3_wrapper {
+
+    width: 98%;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.section3_wrapper_bg .section3_part h4{
+	margin-bottom:30px;
+}
+}
+
+
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+
+
+}
+
+

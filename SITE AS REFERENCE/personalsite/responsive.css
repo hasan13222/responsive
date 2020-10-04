@@ -1,0 +1,457 @@
+
+
+/*		Default Layout: 1024px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+/*-webkit-text-size-adjust:100%; to remove mobile auto font adjust*/
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+.fix_container{
+	width:740px;
+}
+	.fix_container.section1_wrapper{
+		left:24px;
+	}
+	.section1_wrapper{
+		left:6px;
+	}
+	.section2_wrapper .description_wrapper {
+
+    width: 350px;
+    margin-top: 35px;
+
+}
+.section2_wrapper_bg {
+
+    margin-top: -140px;
+
+}
+	.section2_wrapper .profile_wrapper {
+    width: 300px;
+    height: 200px;
+    margin-top: 83px;
+}
+	.section3_wrapper p {
+    font-size: 18px;
+	}
+	.section3_wrapper {
+    margin-top: 22px;
+	}
+	.section3_wrapper h2 {
+    margin-bottom: 20px;
+	}
+	.section3_wrapper .button_wrapper span{
+		margin:15px 0;
+	}
+	.sub_menu {
+    margin-left: 11%;
+	}
+	.section4_wrapper {
+
+    margin-top: 20px;
+
+}
+	.section4_img_wrapper {
+
+    display: block;
+    overflow: hidden;
+    padding-left: 45px;
+
+}
+	.footer_top_wrapper .footer_top_left {
+
+    width: 350px;
+	}
+		.footer_top_wrapper .footer_top_right {
+
+    width: 350px;
+	}
+	.footer_top_wrapper .footer_top_left .form_wrapper input {
+    width: 310px;
+	}
+	.footer_top_wrapper .footer_top_left .form_wrapper textarea {
+    width: 310px;
+	}
+	.footer_top_wrapper .footer_top_left .form_wrapper textarea {
+
+    padding: 0px 10px;
+	}
+	.footer_top_wrapper_bg{
+		margin-top:15px;
+	}
+	.footer_top_wrapper h2{
+		margin-bottom:30px;
+	}
+
+}
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+.fix_container{
+	width:310px;
+}
+.mob_menu_wrapper{
+    display: none;
+}
+.mob_menu{
+	display:block;
+}
+.header_wrapper{
+	margin-top:3px;
+	width:320px;
+}
+.header_wrapper .main_menu_wrapper{
+	display:none;
+}
+.header_wrapper header {
+
+    background-color: #398969;
+    border-radius: 1px;
+    padding-left: 6px;
+    padding-top: 1px;
+    padding-bottom: 0.5px;
+    margin-bottom: -32px;
+
+}
+.header_wrapper h2 {
+
+    float: none;
+    display: block;
+    color: white;
+    font-size: 21px;
+    margin-top: 5px;
+    margin-bottom: 9px;
+
+}
+.header_wrapper .but_wrap {
+
+    position: relative;
+    display: inline-block;
+    padding: 6px 8px;
+    top: -5px;
+    background-color: #156646;
+    left: 268px;
+    cursor: pointer;
+    border: 1px solid #a1c79bcf;
+
+}
+.header_wrapper .but_wrap div{
+	width:18px;
+	height:2.5px;
+	border-radius:1px;
+	background-color:#6bcea1;
+	margin-bottom: 2.5px;
+}
+
+.mob_menu_wrapper {
+	margin-bottom: 20px;
+}
+.mob_menu_wrapper .mob_menu ul li a {
+  text-decoration: none;
+  color: #d2e8e8;
+  font-style: 'Orbitron', sans-serif;
+}
+.mob_menu_wrapper .mob_menu ul li {
+
+    background-color: #398969;
+    border-radius: 2px 1px 2px 2px;
+    border-bottom: 1px solid white;
+    padding: 7px 8px;
+}
+.section1_wrapper_bg{
+	display:none;
+}
+.section2_wrapper_bg{
+	margin-top:5px;
+}
+.section2_wrapper .description_wrapper h2{
+	font-size:25px;
+	margin-bottom:8px;
+}
+.section2_wrapper .description_wrapper{
+	width:310px;
+}
+.section2_wrapper .description_wrapper p{
+	font-size:16px;
+}
+.section2_wrapper .profile_wrapper{
+	width:306px;
+	height:204px;
+}
+.section3_wrapper p{
+	font-size:17px;
+}
+.section3_wrapper h2{
+	font-size:25px;
+	margin-bottom:20px;
+}
+.section3_wrapper .button_wrapper span {
+    padding: 10px 20px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+.section3_wrapper_bg{
+	margin-top:30px;
+}
+.section3_wrapper{
+	margin-top:20px;
+}
+.section4_wrapper{
+	margin-top:0px;
+}
+.section4_wrapper h2{
+	font-size:25px;
+}
+.sub_menu{
+	margin-left:0%;
+	margin-bottom:20px;
+}
+.section4_wrapper .sub_menu ul li{
+	margin-bottom:15px;
+}
+.footer_top_wrapper_bg{
+	margin-top:0px;
+}
+.footer_top_wrapper h2{
+	margin-bottom:0px;
+}
+.footer_top_wrapper .footer_top_left .form_wrapper input{
+	width:285px;
+}
+.footer_top_wrapper .footer_top_left .form_wrapper textarea{
+	width:285px;
+}
+.footer_top_wrapper .footer_top_right{
+	margin-top:30px;
+	width:285px;
+}
+
+.mob_menu_wrapper .mob_menu ul li:hover {
+
+    background-color: #074107;
+    cursor: pointer;
+
+}
+.mob_menu_wrapper .mob_menu ul li:hover a{
+	color:white;
+}
+
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.fix_container{
+	width:470px;
+}
+.section1_wrapper{
+	left:5px;
+	top:-270px;
+}
+.section1_wrapper h2{
+	font-size:25px;
+}
+.section1_wrapper_bg .video_wrapper video{
+	height:285px;
+}
+.mob_menu_wrapper{
+    display: none;
+}
+.mob_menu{
+	display:block;
+}
+.header_wrapper{
+	margin-top:2px;
+	width:480px;
+}
+.header_wrapper .main_menu_wrapper{
+	display:none;
+}
+.header_wrapper header {
+
+    background-color: #398969;
+    border-radius: 1px;
+    padding-left: 6px;
+    padding-top: 1px;
+    padding-bottom: 0.5px;
+    margin-bottom: -32px;
+
+}
+.header_wrapper h2 {
+
+    float: none;
+    display: block;
+    color: white;
+    font-size: 21px;
+    margin-top: 5px;
+    margin-bottom: 9px;
+
+}
+.header_wrapper .but_wrap {
+
+    position: relative;
+    display: inline-block;
+    padding: 6px 8px;
+    top: -5px;
+    background-color: #156646;
+    left: 431px;
+    cursor: pointer;
+    border: 1px solid #a1c79bcf;
+
+}
+.header_wrapper .but_wrap div{
+	width:18px;
+	height:2.5px;
+	border-radius:1px;
+	background-color:#6bcea1;
+	margin-bottom: 2.5px;
+}
+
+.mob_menu_wrapper {
+	margin-bottom: 20px;
+}
+.mob_menu_wrapper .mob_menu ul li a {
+  text-decoration: none;
+  color: #d2e8e8;
+  font-style: 'Orbitron', sans-serif;
+}
+.mob_menu_wrapper .mob_menu ul li {
+
+    background-color: #398969;
+    border-radius: 2px 1px 2px 2px;
+    border-bottom: 1px solid white;
+    padding: 7px 8px;
+}
+.section1_wrapper_bg{
+	display:block;
+}
+.fix_container.section1_wrapper{
+	left:22px;
+}
+.section2_wrapper_bg{
+	margin-top:-73px;
+}
+.section2_wrapper .description_wrapper h2{
+	font-size:25px;
+	margin-bottom:8px;
+}
+.section2_wrapper .description_wrapper{
+	width:460px;
+}
+.section2_wrapper .description_wrapper p{
+	font-size:16px;
+}
+.section2_wrapper .profile_wrapper{
+	width:466px;
+	height:311px;
+}
+.section3_wrapper p{
+	font-size:17px;
+}
+.section3_wrapper h2{
+	font-size:25px;
+	margin-bottom:20px;
+}
+.section3_wrapper .button_wrapper span {
+    padding: 10px 20px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+.section3_wrapper_bg{
+	margin-top:30px;
+}
+.section3_wrapper{
+	margin-top:20px;
+}
+.section4_wrapper{
+	margin-top:0px;
+}
+.section4_wrapper h2{
+	font-size:25px;
+}
+.footer_top_wrapper .footer_top_left {
+
+    width: 460px;
+    float: left;
+    margin-top: 27px;
+    margin-left: 70px;
+
+}
+.sub_menu{
+	margin-left:0%;
+	margin-bottom:20px;
+}
+.section4_wrapper .sub_menu ul li{
+	margin-bottom:15px;
+}
+.footer_top_wrapper_bg{
+	margin-top:0px;
+}
+.footer_top_wrapper h2{
+	margin-bottom:0px;
+}
+.footer_top_wrapper .footer_top_left .form_wrapper input{
+	width:285px;
+}
+.footer_top_wrapper .footer_top_left .form_wrapper textarea{
+	width:285px;
+}
+.footer_top_wrapper .footer_top_right{
+	margin-top:30px;
+	width:285px;
+	margin-right: 90px;
+}
+
+.section4_wrapper .section4_img_wrapper ul li {
+  margin-left: 70px;
+}
+}
+
+  
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+
+
+}
+
+

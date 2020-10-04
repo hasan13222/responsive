@@ -1,0 +1,292 @@
+
+
+
+/*
+layout:1330px;
+*/
+@media only screen and (min-width: 1200px) and (max-width: 1330px){
+	.main_wrapper{
+		right:0;
+	}
+	.section_wrapper {
+
+    margin: 0 auto;
+
+}
+	.section1_wrapper .section1_5{
+		display:none;
+	}
+	.section1_wrapper{
+		width:880px;
+	}
+	#sidebar{
+		max-width:230px;
+		z-index:100;
+		display:none;
+	}
+	.section1 .next{
+		display:none;
+	}
+}
+/*
+Layout:1200px;
+*/
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	.header_wrapper .header_left button{
+		margin-right:0px;
+		width:35px;
+	}
+	.header_left header h2 {
+
+    font-size: 18px;
+
+}
+	.main_wrapper{
+		right:0;
+	}
+	.section1_wrapper .section1_5{
+		display:none;
+	}
+	.section1_wrapper{
+		width:880px;
+	}
+	#sidebar{
+		max-width:230px;
+		z-index:100;
+		display:none;
+	}
+		.section1 .next{
+		display:none;
+	}
+	.inside_wrapper .video_img {
+
+    width: 178px;
+    height: 178px;
+	}
+}
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+	.header_wrapper .header_left button{
+		margin-right:0px;
+		width:35px;
+	}
+.header_left header h2 {
+
+    font-size: 16px;
+    text-indent: -10000px;
+    margin-left: 10px;
+
+}
+	.header_wrapper .header_right{
+		padding:0px;
+	}
+	.header_wrapper .header_right ul li a {
+
+    padding: 8px 13px;
+
+}
+	.main_wrapper{
+		right:0;
+	}
+	.section1_wrapper .section1_5{
+		display:none;
+	}
+	.section1_wrapper .section1_4{
+		display:none;
+	}
+	.section1_wrapper{
+		width:660px;
+	}
+	#sidebar{
+		max-width:230px;
+		z-index:100;
+		display:none;
+	}
+		.section1 .next{
+		display:none;
+	}
+	
+}
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+	.header_left{
+		padding:0;
+		padding-left:15px;
+	}
+.header_left header h2 {
+
+    font-size: 16px;
+    text-indent: -10000px;
+    margin-left: 10px;
+
+}
+	.header_wrapper .header_left button{
+		width:30px;
+		margin-right:0px;
+	}
+	.header_wrapper .header_mid input{
+		display:none;
+	}
+	.header_wrapper .header_right ul{
+		padding-left:0;
+		padding-right:0;
+	}
+	.header_wrapper .header_right ul li a{
+		padding:8px 6px;
+	}
+	.main_wrapper{
+		right:0;
+	}
+	.section1_wrapper .section1_5{
+		display:none;
+	}
+	.section1_wrapper .section1_4{
+		display:none;
+	}
+	.section1_wrapper .section1_3{
+		display:none;
+	}
+	.section1_wrapper{
+		width:440px;
+	}
+	#sidebar{
+		max-width:230px;
+		z-index:100;
+		display:none;
+	}
+		.section1 .next{
+		display:none;
+	}
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 320px) and (max-width: 576px){
+	.header_left{
+		padding:0;
+		
+	}
+	.header_left header{
+		width:18px;
+	}
+.header_left header h2 {
+
+    font-size: 16px;
+    text-indent: -10000px;
+    margin-left: 0px;
+
+}
+	.header_wrapper .header_left button{
+		width:30px;
+		margin-right:0px;
+	}
+	.header_wrapper .header_mid{
+		padding:0;
+	}
+	.header_wrapper .header_mid input{
+		display:none;
+	}
+	.header_wrapper .header_right{
+		padding:0;
+		
+	}
+	.header_wrapper .header_right ul{
+		padding-left:0;
+		padding-right:0;
+	}
+	.header_wrapper .header_right ul li a{
+		padding:8px 3px;
+	}
+	.main_wrapper{
+		right:0;
+	}
+	.section1_wrapper .section1_5{
+		display:none;
+	}
+	.section1_wrapper .section1_4{
+		display:none;
+	}
+	.section1_wrapper .section1_3{
+		display:none;
+	}
+	.section1_wrapper .section1_2{
+		display:none;
+	}
+	.section1_wrapper{
+		width:213px;
+	}
+	#sidebar{
+		max-width:230px;
+		z-index:100;
+		display:none;
+	}
+		.section1 .next{
+		display:none;
+	}
+	.inside_wrapper .video_img {
+
+    width: 148px;
+    height: 180px;
+	}
+	.inside_left .reaction_wrapper {
+
+    margin-top: 15px;
+
+}
+.inside_wrapper .description_wrapper time{
+	display:block;
+}
+.inside_left .description_wrapper button {
+	
+    margin-top: 10px;
+
+}
+}
+
+
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+
+
+}
+
+

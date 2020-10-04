@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Customers</title>
+	<script src="https://kit.fontawesome.com/dac5c0dc0b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="full_container">
+	<div class="section1_2_wrapper">
+		<div class="section_single section_1">
+			<img class="section_1_inner section_1_1" src="https://demo.directus.io/uploads/thumper/originals/19acff06-4969-5c75-9cd5-dc3f27506de2.svg" alt="">
+			<a href="#" class="section_1_inner section_1_2">
+				<i class="fas fa-box-open"></i>
+				<span class="tooltip">collections</span>
+			</a>
+			<a href="#" class="section_1_inner section_1_3">
+				<i class="fas fa-user-friends"></i>
+				<span class="tooltip">user directory</span>
+			</a>
+			<a href="#" class="section_1_inner section_1_4">
+				<i class="fas fa-images"></i>
+				<span class="tooltip">file library</span>
+			</a>
+			<a href="#" class="section_1_inner section_1_5">
+				<i class="fas fa-question-circle"></i>
+				<span class="tooltip">help &amp; docs</span>
+			</a>
+			<a href="#" class="section_1_inner section_1_6">
+				<i class="fas fa-cog"></i>
+				<span class="tooltip">admin settings</span>
+			</a>
+			<a href="#" class="section_1_inner section_1_7">
+				<img src="images/avatar.jpg" alt="">
+				<i class="fas fa-sign-out-alt"></i>
+			</a>
+
+		</div>
+		<div class="section_single section_2">
+			
+			<button><i class="fas fa-times"></i></button>
+			<span class="section_2_inner section_2_1"><i class="fas fa-wifi"></i>Thumper</span>
+			<a href="#" class="section_2_inner section_2_2">
+				<i class="fas fa-city"></i>About Us
+			</a>
+			<a href="customer.html" class="section_2_inner section_2_3">
+				<i class="fas fa-user"></i>Customers
+			</a>
+			<a href="#" class="section_2_inner section_2_4">
+				<i class="fas fa-map-marker-alt"></i>Locations
+			</a>
+			<a href="#" class="section_2_inner section_2_5">
+				<i class="fas fa-at"></i>Mailing list
+			</a>
+			<a href="#" class="section_2_inner section_2_6">
+				<i class="fas fa-rss"></i>News
+			</a>
+			<a href="#" class="section_2_inner section_2_7">
+				<i class="fas fa-clipboard-list"></i>Services
+			</a>
+			<a href="#" class="section_2_inner section_2_8">
+				<i class="fas fa-user-friends"></i>Staff
+			</a>
+			<a href="#" class="section_2_inner section_2_9">
+				<i class="fas fa-clipboard-check"></i>Tickets
+			</a>
+			<a href="#" class="section_2_inner section_2_10">
+				<i class="far fa-bookmark"></i>VIP customers
+				<button class="delete"><i class="fas fa-trash"></i></button>
+			</a>
+		</div>
+	</div>
+	<div class="section_single section_3">
+		<div class="section_3_top">
+			<div class="st_inner st_left">
+				<div class="stl_mobile">
+					<i class="fas fa-bars"></i>
+				</div>
+				<div class="stl_l">
+					<i class="fas fa-clipboard-list"></i>
+				</div>
+				<div class="stl_r">
+					<a href="#">Collections</a>
+					<p>Services <i class="fas fa-bookmark"></i></p>
+				</div>
+			</div>
+			<div class="st_inner st_right">
+				<form action="">
+					<input type="text" placeholder="5 Items">
+					<button class="search"><i class="fas fa-search"></i></button>
+					<button class="filter"><i class="fas fa-filter"></i></button>
+				</form>
+				<button class="plus"><i class="fas fa-plus"></i></button>
+			</div>
+		</div>
+		<div class="section_3_main">
+			<table>
+				<tr>
+					<th><i class="fas fa-sort-amount-down"></i> <input type="checkbox">Description</th>
+					<th>Name</th>
+				</tr>
+				<tr>
+					<td><i class="fas fa-grip-lines"></i> <input type="checkbox">Discover, research, &nbs...</td>
+					<td>Strategy</td>
+				</tr>
+				<tr>
+					<td><i class="fas fa-grip-lines"></i> <input type="checkbox">Discover, research, &nbs...</td>
+					<td>Strategy</td>
+				</tr>
+				<tr>
+					<td><i class="fas fa-grip-lines"></i> <input type="checkbox">Discover, research, &nbs...</td>
+					<td>Strategy</td>
+				</tr>
+				<tr>
+					<td><i class="fas fa-grip-lines"></i> <input type="checkbox">Discover, research, &nbs...</td>
+					<td>Strategy</td>
+				</tr>
+				
+			</table>
+		</div>
+	</div>
+	<div class="section_single section_4">
+		<button class="btn_top"><i class="fas fa-exclamation-circle"></i></button>
+		<button class="btn_bottom"><i class="fas fa-bell"></i></button>
+	</div>
+</div>		
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+    $(".section_3 .section_3_top").css({
+    	"position": "sticky",
+    	"top": "0",
+    	"box-shadow": "0 1px 4px 0 rgba(0,0,0,.2)"
+    });
+  });
+
+
+  //mobile menu function
+  $(".section_3 .section_3_top .st_left .stl_mobile i").click(function(){
+  	$(".section1_2_wrapper").css({"display": "flex"});
+  	$("table").css("overflow", "hidden")
+  	$(".section_2 button i").show();
+  });
+  $(".section_2 button i").click(function(){
+  	$(".section1_2_wrapper").css({"display": "none"});
+  	$("table").css("overflow-x", "scroll");
+  });
+});
+</script>
+
+</body>
+</html>

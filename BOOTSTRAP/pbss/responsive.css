@@ -1,0 +1,237 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	.head ul li:last-child {
+    margin-left: 60px;
+}
+.head_top ul li {
+    margin-right: 10px;
+}
+.head_top ul li a {
+    font-size: 14px;
+}
+
+}
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+.header {
+    padding-bottom: 110px;
+}
+.head ul li:last-child {
+    margin-left: 0px;
+}
+.head ul li.bg-info {
+
+    background: inherit !important;
+    padding-left: 0;
+
+}
+.head ul li.badge-pill{
+	border-radius:0px;
+}
+.head_top ul li {
+
+    margin-right: 10px;
+    text-align: center;
+
+}
+.head_top ul li a {
+    font-size: 14px;
+}
+.top_section {
+
+    margin-top: 50px;
+    width: 620px;
+
+}
+.footer_top ul {
+
+    padding-left: 0;
+    margin-top: 13px;
+
+}
+.footer_top h3 {
+
+    font-size: 18px;
+
+}
+}
+
+
+
+/*		Wide Mobile Layout: 576px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+.header {
+    padding-bottom: 57px;
+}
+.head ul li:last-child {
+    margin-left: 0px;
+}
+.head ul li.bg-info {
+
+    background: inherit !important;
+    padding-left: 0;
+
+}
+.head ul li.badge-pill{
+	border-radius:0px;
+}
+.head_top ul li {
+
+    margin-right: 10px;
+    text-align: center;
+
+}
+.head_top ul li a {
+    font-size: 13px;
+}
+.top_section {
+
+    margin-top: 50px;
+    width: 620px;
+
+}
+.top_section .btn-info {
+    margin-top: 25px;
+}
+.top_section h2 {
+    margin-bottom: 14px;
+}
+.head_bottom p {
+
+    margin-left: 0;
+}
+/* service section*/
+.service_section .row:nth-child(2) .col-md-6:first-child{
+	position:inherit;
+}
+/* footer_top */
+.footer_top ul {
+
+    padding-left: 0;
+    margin-top: 13px;
+
+}
+.footer_top h3 {
+
+    font-size: 18px;
+
+}
+/* footer */
+.footer .row{
+	text-align:center;
+}
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (min-width: 320px) and (max-width: 576px){
+.header {
+    padding-bottom: 57px;
+	text-align:center;
+}
+.header .head h6 {
+
+    display: none;
+
+}
+.header .head_top{
+    display:none;
+}
+.header hr.light{
+    display:none;
+}
+.head ul li:last-child {
+    margin-left: 0px;
+}
+.head ul li.bg-info {
+
+    background: inherit !important;
+    padding-left: 0;
+
+}
+.head ul li.badge-pill{
+	border-radius:0px;
+}
+.head_top ul li {
+
+    margin-right: 10px;
+    text-align: center;
+
+}
+.head_top ul li a {
+    font-size: 13px;
+}
+.head_top ul li a.float-right {
+    float: none !important;
+}
+.head_top ul {
+    margin: auto;
+}
+.top_section {
+
+    margin-top: 50px;
+    width: 311px;
+
+}
+.ts_wrap {
+    padding-left: 0;
+}
+.top_section .btn-info {
+    margin-top: 25px;
+}
+.top_section h2 {
+    margin-bottom: 14px;
+}
+/* service section*/
+.service_section .row:nth-child(2) .col-md-6:first-child{
+	position:inherit;
+}
+/* footer top */
+.footer_top {
+	text-align:center;
+}
+.footer_top ul {
+
+    padding-left: 0;
+    margin-top: 13px;
+
+}
+.footer_top h3 {
+
+    font-size: 18px;
+	padding-right: 18px;
+
+}
+/* footer */
+.footer .row{
+	text-align:center;
+}
+
+}
+
+

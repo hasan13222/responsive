@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+html, body{
+	font-family: 'Open Sans', sans-serif;
+}
+li{
+	list-style-type:none;
+}
+.header {
+    background: url("img/header_b.png") no-repeat;
+        background-size: auto;
+    background-size: 100% 100%;
+    padding-bottom: 240px;
+}
+hr.light{
+	border-top:1px solid #fff;
+	margin-left: 10px;
+	margin-right: 18px;
+	margin-top: 0;
+}
+
+.head_top ul li img {
+  margin-top: 13px;
+}
+.head_top ul li {
+  margin-right: 30px;
+}
+.head ul li:last-child {
+    margin-left: 270px;
+}
+.top_section {
+    margin-top: 150px;
+    width: 765px;
+}
+.top_section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+}
+.top_section .btn-info {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.top_section a {
+  margin-bottom: 240px;
+  text-decoration: underline;
+}
+.head_bottom p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+.head_bottom {
+  padding: 16px;
+}
+.shadow {
+  box-shadow: 0 0 8px 0 gray;
+  margin-bottom: 85px;
+}
+.s1_r{
+	position:relative;
+	margin-bottom: 40px;
+}
+.s1_r .right_part{
+	position:absolute;
+	left: 110px;
+}
+.right_part p {
+  line-height: 1.2;
+}
+.section1 .row div:first-child {
+  padding-right: 52px;
+}
+
+.section2 {
+  margin-top: 122px;
+}
+.section2 .row:first-child {
+  margin-bottom: 40px;
+}
+.section2 h4 {
+  margin-top: 25px;
+  margin-bottom: 21px;
+}
+.section2 p {
+  font-size: 19px;
+}
+.section2 button {
+
+    padding: 10px 21px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+}
+.section3_bg {
+  background-color: #F2F7FB;
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.section3 .row:last-child {
+  margin-top: 45px;
+}
+.section3 ul li a {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.section3 ul li a span {
+  font-size: 14px;
+}
+.section3 ul li:hover {
+  background-color: white;
+}
+.section3 h2 {
+  font-size: 35px;
+}
+.section4 .col-3 button {
+
+    padding: .5rem 1rem;
+
+}
+.section4 .col-3 .text-primary:hover {
+    color: #fefeff !important;
+}
+.section4 {
+  padding-top: 90px;
+  padding-bottom: 95px;
+}
+.section4 p {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-size: 19px;
+}
+.section4 h3 {
+  font-size: 35px;
+}
+.section4 .col-9 {
+  padding-left: 80px;
+  padding-right: 55px;
+  position: relative;
+}
+.section4 .text-primary:hover{
+	color:white !important;
+}
+.section4 .video_control {
+  position: absolute;
+  bottom: 15px;
+  left: 93px;
+}
+
+.footer_top ul {
+  padding-left: 0;
+  margin-top: 25px;
+}
+.footer_top ul li a {
+  padding-left: 0;
+}
+.footer_top {
+  padding-top: 90px;
+  padding-bottom: 95px;
+}
+.footer .badge-pill {
+   padding: 10px 20px;
+    text-transform: Capitalize;
+}
+.footer .badge-pill img {
+  padding-right: 5px;
+  padding-bottom: 2px;
+}
+.footer .col-4 {
+  margin-bottom: 20px;
+}
+.footer .btn-light{
+	background-color:#d4dde6;
+	margin-bottom:20px;
+}

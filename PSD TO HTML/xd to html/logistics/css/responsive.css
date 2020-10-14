@@ -211,6 +211,7 @@
   }
   .delivery_wrapper .delivery_left .email_subscription .email_input{
     padding-right: 0rem;
+    max-width: 50%;
   }
   .delivery_wrapper .delivery_left .email_subscription .submit {
       margin-left: -2rem;

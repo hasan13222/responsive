@@ -210,7 +210,7 @@
       width: 300%;
   }
   .delivery_wrapper .delivery_left .email_subscription .email_input{
-    padding-right: 2rem;
+    padding-right: 0rem;
   }
   .delivery_wrapper .delivery_left .email_subscription .submit {
       margin-left: -2rem;

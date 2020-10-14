@@ -209,6 +209,9 @@
   .delivery_wrapper .delivery_right img {
       width: 300%;
   }
+  .delivery_wrapper .delivery_left .email_subscription .email_input{
+    padding-right: 2rem;
+  }
   .delivery_wrapper .delivery_left .email_subscription .submit {
       margin-left: -2rem;
       position: relative;
@@ -246,6 +249,9 @@
   }
 
   /*works wrapper*/
+  .works_wrapper{
+    margin-bottom: 3rem;
+  }
   .works_wrapper h2 {
       width: 100%;
       margin-bottom: 1rem;
@@ -258,6 +264,9 @@
       width: 100%;
       min-width: 30.5rem;
       margin-bottom: 5rem;
+  }
+  .wi1 {
+      margin-top: 3rem;
   }
 
   /*slider wrapper*/
@@ -366,7 +375,23 @@
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px){ 
-  
+  .fix_container{
+    width: 45.5rem;
+  }
+  .slider_bg .item_inner {
+      padding: 1.2rem 1rem 2rem 2rem;
+  }
+  .newsroom_wrapper .newsroom_inner .ni_single img {
+      width: 98%;
+      height: 55%;
+  }
+  .shipping_wrapper .shipping_right {
+      width: 67%;
+      position: relative;
+  }
+  .shipping_wrapper .shipping_right img{
+    left: 7rem;
+  }
 } 
 
  

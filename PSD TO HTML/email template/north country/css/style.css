@@ -9,7 +9,6 @@ html {
 .fix_container {
   width: 100rem;
   margin: 0 auto;
-  overflow: auto;
   display: block;
 }
 h2,h3,h4,h5,h6{
@@ -21,8 +20,26 @@ p{
 }
 .full_container {
   width: 100%;
-  min-width: 100rem;
 }
+ /* media queries*/
+ 
+@media only screen and (max-width: 999px){
+  .fix_container{
+    width: 73.8rem;
+  }    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+  .fix_container{
+    width: 30.5rem;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){ 
+  .fix_container{
+    width: 45.5rem;
+  }
+} 
 /*end of typography*/
 
 /*header*/
@@ -53,6 +70,45 @@ p{
 .approval_wrapper {
   text-align: center;
 }
+
+@media only screen and (max-width: 999px){
+  .approval_bg h1 {
+      font-size: 3rem;
+  }
+  .approval_bg .approved img {
+      width: 34rem;
+      margin-top: 6rem;
+  }    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+  .logo_wrapper img {
+      width: 70%;
+  }
+  .footer_wrapper .footer_right p {
+      width: 70%;
+  }
+  .header_wrapper {
+      text-align: center;
+  }
+  .header_wrapper a img {
+      width: 63%;
+  }
+  .approval_bg h1 {
+      font-size: 2rem;
+  }
+  .approval_bg {
+      padding: 5rem 0 3rem 0;
+  }
+  .approval_bg .approved img {
+      width: 21rem;
+      margin-top: 3rem;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){ 
+  
+} 
 
 /*SECOND SECTION (ADDRESSES)*/
 
@@ -103,12 +159,40 @@ p{
   display: block;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 768px){
+  .addresses_wrapper .title_row h3 {
+      font-size: 1.4rem;
+      text-align: center;
+      width: 70%;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      margin-left: 2rem;
+  }
+  .addresses_wrapper .addresses h3 {
+      font-size: 1.5rem;
+  }
+  .addresses_wrapper .addresses .address_right.address .photo img {
+      width: 4rem;
+  }
+  .addresses_wrapper .addresses .address_right.address .info_wrapper {
+      margin-right: 0;
+  }
+  .addresses_wrapper .addresses{
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){ 
+  
+} 
+
+
 /*proposal review approval section*/
 section.three_points {
   background-color: #063852;
   padding: 2.5rem 0;
   border-bottom: 0.4px solid #fff;
-  min-width: 100rem;
 }
 section.three_points .proposal_wrapper, section.three_points .review_wrapper, section.three_points .bottom_appr_wrapper {
   background-color: #E6DF44;
@@ -195,6 +279,19 @@ section.three_points .bottom_appr_wrapper p {
   line-height: 1.4;
 }
 
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+  section.three_points .proposal_wrapper, section.three_points .review_wrapper, section.three_points .bottom_appr_wrapper {
+      margin-bottom: 3rem;
+      padding: 2rem 2rem;
+      padding-right: 2rem;
+  }
+
+}
+
+
+
+
 /*FOOTER*/
 .footer_bg {
   background-color: #011A27;
@@ -214,3 +311,12 @@ section.three_points .bottom_appr_wrapper p {
 .footer_wrapper .footer_right p {
   text-align: center;
 }
+
+@media only screen and (min-width: 480px) and (max-width: 768px){ 
+  .footer_wrapper .footer_left p {
+      font-size: 0.9rem;
+      padding: 0 1rem;
+  }
+}
+
+

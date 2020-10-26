@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>School</title>
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/dac5c0dc0b.js" crossorigin="anonymous"></script>
+	<!-- ubuntu font -->
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<!-- work sans -->
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- jquery popper bootstrap js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- style css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/blog-details.css">
+	<!-- responsive css -->
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+	<header>
+		<!-- NAVIGATION SECTION -->
+		<div class="container-fluid header_bg shadow bg-white position-fixed">
+			<div class="container">
+				<nav class="navbar navbar-expand-md bg-light navbar-light">
+				  <a class="navbar-brand" href="index.html"><h1>School</h1></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				    <ul class="navbar-nav ml-auto">
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="index.html">Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="aboutus.html">About Us</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="class.html">Classes</a>
+				      </li> 
+				      <li class="nav-item">
+				        <a class="nav-link badge active" href="blog.html">Blog</a>
+				      </li> 
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="contactus.html">Contact Us</a>
+				      </li>
+				      <li>
+				      	<button><span class="search">Search</span><span class="search_icon bg-warning"><img src="images/home/search.png" alt="search"></span></button>
+				      </li>
+				    </ul>
+				  </div>  
+				</nav>
+			</div>
+		</div>
+		<!-- END OF NAVIGATION -->
+	</header>
+
+	<main>
+		<!-- TOP SECTION -->
+		<div class="container-fluid top_section">
+			<div class="container top_section_wrapper">	
+				<div class="row text-center">
+					<div class="col-12">
+						<h2 class="display-4">Blog Details</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END OF top SECTION -->
+
+		<!-- blog details -->
+		<div class="container blog_details">
+			<div class="row bd_wrapper">
+				<!-- main details -->
+				<div class="col-lg-8 col-md-7 col-12 bd_inner">
+					<!-- post thumbnail -->
+					<div class="row img_wrap">
+						<div class="col-12">
+							<img src="images/blog/single-post.png" alt="post thumbnail">
+						</div>
+					</div><!-- end of post thumb -->
+					<!-- post description -->
+					<div class="row bd_desc">
+						<div class="col-12">
+							<p class="date">16 February 2020</p>
+							<h2>Lorem ipsum dolor sit amet, adipisc mauris ultrices.</h2>
+							<p class="dtl">
+								Sed aliquam, mi in fermentum aliquam, sem lectus fringilla felis, et faucibus felis turpis ut . Fusce quis arcu aliquet, egestas nunc et, maximus tortor.Sed aliquam, mi in fermentum , lectus fringilla felis, et faucibus felis turpis ut turpis. Fusce quis arcu aliquet, egestas nunc, maximus tortor.
+							</p>
+							<p class="dtl">
+								Sed aliquam, mi in fermentum aliquam, sem lectus fringilla felis, et faucibus felis turpis ut . Fusce quis arcu aliquet, egestas nunc et, maximus tortor.Sed aliquam, mi in fermentum , lectus fringilla felis, et faucibus felis turpis ut turpis. Fusce quis arcu aliquet, egestas nunc, maximus tortor.
+							</p>
+						</div>
+					</div><!--end of  post description -->
+					<div class="row bdbtm">
+						<div class="col-6 btm_left">
+							<a href="#" class="bg-light rounded-pill"><img src="images/blog/share.png">Share</a>
+						</div>
+						<div class="col-6 text-right btn_right">
+							<span class="prev"><img src="images/blog/angle-left.png" alt=""></span>
+							<span class="navig">
+								3/10
+							</span>
+							<span class="next"><img src="images/blog/angle-left.png" alt=""></span>
+						</div>			
+					</div>
+				</div><!-- end of main deatails -->
+				<!-- sidebar -->
+				<div class="col-lg-4 col-md-5 col-12 sidebar">
+					<!-- search box -->
+					<div class="row search_wrap">
+						<div class="col-12">
+							<form action="post">
+								<input type="text" placeholder="Search Keyword" class="form-control bg-light shadow">
+								<button type="submit"><img src="images/blog/search.png" alt=""></button>
+							</form>
+						</div>
+					</div><!-- end of search box -->
+					<!-- tags -->
+					<div class="tags row">
+						<div class="col-12 tags_heading">
+							<h4>Tags</h4>
+						</div>
+						<div class="col-4">
+							<a href="#" class="bg-light rounded-pill">project</a>
+						</div>
+						<div class="col-4">
+							<a href="#" class="bg-light rounded-pill">technology</a>
+						</div>
+						<div class="col-4">
+							<a href="#" class="bg-light rounded-pill">travel</a>
+						</div>
+						<div class="col-4">
+							<a href="#" class="bg-light rounded-pill">project</a>
+						</div>
+						<div class="col-4">
+							<a href="#" class="bg-light rounded-pill">lifestyle</a>
+						</div>
+						<div class="col-4">
+							<a href="#" class="bg-light rounded-pill">travel</a>
+						</div>
+					</div><!-- end of tags -->
+					<div class="row recent_blog">
+						<div class="col-12 rb_heading">
+							<h4>Recent Blog</h4>
+						</div>
+						<div class="col-6">
+							<img src="images/blog/recent-blog1.png" alt="post thumb">
+						</div>
+						<div class="col-6">
+							<img src="images/blog/recent-blog2.png" alt="post thumb">
+						</div>
+						<div class="col-6">
+							<img src="images/blog/recent-blog3.png" alt="post thumb">
+						</div>
+						<div class="col-6">
+							<img src="images/blog/recent-blog4.png" alt="post thumb">
+						</div>
+					</div>
+				</div><!-- end of sidebar -->
+			</div>
+		</div>			
+		<!-- end of blog details -->
+
+		<!-- related blog -->
+		<div class="related_blog_wrapper container">
+			<div class="row rb_heading">
+				<div class="col-12"><h4>Related Blog</h4></div>
+			</div>
+			<div class="row rb_inner">
+				<div class="col-lg-4 col-md-6 col-12">
+					<img src="images/blog/rb1.png" alt="post thumb">
+					<p class="date">16 February 2020</p>
+					<h3 class="post_title">Lorem ipsum dolor sit amet, adipisc mauris ultrices.</h3>
+					<a href="blog-details.html" class="text-warning text-uppercase">READ MORE</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<img src="images/blog/rb2.png" alt="post thumb">
+					<p class="date">16 February 2020</p>
+					<h3 class="post_title">Lorem ipsum dolor sit amet, adipisc mauris ultrices.</h3>
+					<a href="blog-details.html" class="text-warning text-uppercase">READ MORE</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<img src="images/blog/rb3.png" alt="post thumb">
+					<p class="date">16 February 2020</p>
+					<h3 class="post_title">Lorem ipsum dolor sit amet, adipisc mauris ultrices.</h3>
+					<a href="blog-details.html" class="text-warning text-uppercase">READ MORE</a>
+				</div>
+			</div>
+		</div>
+		<!-- end of related blog -->
+		
+	</main>
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="container-fluid footer_bg">
+			<div class="container footer_wrapper">
+				<div class="row ft_inner text-white">
+					<!-- contact -->
+					<div class="col-12 text-md-left text-center col-md-4">
+						<h4>Contact Us</h4>
+						<ul>
+							<li class="address">Franklin St, Sydney Aus</li>
+							<li class="call">1234 567890</li>
+							<li class="mail" href="mailto:realestate@support.info">
+								school@info.com
+							</li>
+						</ul>
+						<div class="social_icons">
+							<a href="twitter.com" class="mr-2"><i class="fa fa-twitter text-white" aria-hidden="true"></i></a>
+							<a href="facebook.com" class="mr-2"><i class="fa fa-facebook text-white" aria-hidden="true"></i></a>
+							<a href="youtube.com" class="mr-2"><i class="fa fa-youtube text-white" aria-hidden="true"></i></a>
+							<a href="linkedin.com" class="mr-2"><i class="fa fa-linkedin text-white" aria-hidden="true"></i></a>
+							
+						</div>
+					</div><!-- end of contact -->
+					<!-- quick links -->
+					<div class="col-12 text-md-left ql_wrapper text-center col-md-4">
+						<h4>Quick Links</h4>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="class.html">Courses</a></li>
+							<li><a href="blog.html">Read Our Blog</a></li>
+							<li><a href="contactus.html">Contact</a></li>
+						</ul>
+					</div><!-- end of quick links -->
+					<!-- newsletter -->
+					<div class="col-12 text-md-left text-center col-md-4 nw_wrapper">
+						<h4>Newsletter</h4>
+						<form action="post">
+							<input type="email" class="form-control text-white" placeholder="Your Email">
+							<button type="submit" class="btn btn_white send text-warning">Subscribe</button>
+						</form>
+					</div><!-- end of newsletter -->
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- END OF FOOTER -->
+
+	<!-- SCRIPTS HERE -->
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>

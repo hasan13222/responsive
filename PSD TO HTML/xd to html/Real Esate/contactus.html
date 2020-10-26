@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Real Estate</title>
+	<!-- lato font -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- jquery popper bootstrap js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- style css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contactus.css">
+	<!-- responsive css -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/contactus-responsive.css">
+</head>
+
+<body>
+	<div class="container-fluid header_n_topSection text-white">
+		<header>
+			<!-- NAVIGATION SECTION -->
+			<div class="container">
+				<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				  <a class="navbar-brand" href="#"><h1 class="text-white">Real Estate</h1></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				    <ul class="navbar-nav ml-auto">
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="index.html">Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="aboutus.html">About</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="listing.html">Listing</a>
+				      </li> 
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="blog.html">Blog</a>
+				      </li> 
+				      <li class="nav-item">
+				        <a class="nav-link badge active" href="contactus.html">Contact</a>
+				      </li>
+				    </ul>
+				  </div>  
+				</nav>
+			</div>
+			<!-- END OF NAVIGATION -->
+		</header>
+
+		<!-- top SECTION -->
+		<div class="container top_section_wrapper">		
+			<div class="row text-center">
+				<div class="col-12">
+					<h2 class="display-4">Contact Us</h2>
+				</div>
+			</div>
+		</div>
+		<!-- END OF top SECTION -->
+	</div>
+
+	<!-- CONTACT SECTION -->
+	<div class="container contact_wrapper mt-5">
+		<div class="row">
+			<div class="col-12 shadow">
+				<h2 class="text-dark">Post Comment</h2>
+                <form>       	
+                	<div class="form-group row">
+                		<div class="col-12 col-sm-6">
+                			<input type="text" name="fullname" placeholder="Your Name" id="fullname" class="form-control">
+                		</div>
+                		<div class="col-12 col-sm-6">
+                			<input type="email" name="email" placeholder="Your Email" id="email" class="form-control">
+                		</div>
+                	</div>
+                	<div class="form-group row">
+                		<div class="col-12 col-sm-6">
+                			<input type="text" name="subject" placeholder="Subject" id="subject" class="form-control">
+                		</div>
+                		<div class="col-12 col-sm-6">
+                			<input type="email" name="phone" placeholder="Phone" id="phone" class="form-control">
+                		</div>
+                	</div>
+                	
+                	<div class="form-group row">
+                		<div class="col-12">
+                			<textarea name="message" placeholder="Your Message" id="message" cols="30" rows="5" class="form-control"></textarea>
+                		</div>
+                	</div>
+                	<div class="row form-group">
+                		<div class="col-12 text-center">
+                			<button type="submit" class="btn text-white">
+                				Submit
+                			</button>
+                		</div>
+                	</div>
+                </form>
+			 </div>
+		</div>
+	</div>
+	<!-- END OF CONTACT SECTION -->
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="container-fluid footer_bg">
+			<div class="container footer_wrapper">
+				<div class="row ft_inner text-white">
+					<!-- real-estate -->
+					<div class="col-12 text-md-left text-center col-md-4">
+						<h4>Real Estate</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta laboriosam, perspiciatis, esse.</p>
+						<ul>
+							<li class="address">95 South Park Avenue, Australia</li>
+							<li class="call">1234 567890</li>
+							<li class="mail" href="mailto:realestate@support.info">
+								realestate@support.info
+							</li>
+						</ul>
+					</div><!-- end of real-estate -->
+					<!-- twitter-feeds -->
+					<div class="col-12 text-md-left tf_wrapper text-center col-md-4">
+						<h4>Twitter Feeds</h4>
+						<ul>
+							<li class="twitter">@findhouses all share them with me baby said inspet. <br><span class="time">about 5 days ago</span></li>
+							<li class="twitter">@findhouses all share them with me baby said inspet. <br><span class="time">about 5 days ago</span></li>
+							<li class="twitter">@findhouses all share them with me baby said inspet. <br><span class="time">about 5 days ago</span></li>
+						</ul>
+					</div><!-- end of twitter-feeds -->
+					<!-- newsletter -->
+					<div class="col-12 text-md-left text-center col-md-4">
+						<h4>Newsletter</h4>
+						<p>Sign Up for Our Newsletter to get Latest Updates and Offers. Subscribe to receive news in your inbox.</p>
+						<form action="post">
+							<input type="email" class="form-control text_purple" placeholder="Enter Your Email">
+							<button type="submit" class="btn send"><img src="images/home/send.png" alt="submit"></button>
+						</form>
+					</div><!-- end of newsletter -->
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- END OF FOOTER -->
+</body>
+</html>

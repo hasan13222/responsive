@@ -1,0 +1,264 @@
+@media only screen and (max-width: 1199.5px){
+	.top_section {
+    padding: 11.9rem 0;
+	}
+	.ab_heading h3{
+		margin-top: -2.4rem !important;
+	}
+	.cl_inner .owl-nav .owl-prev {
+	    left: -2.1rem;
+	}
+	.cl_inner .owl-nav .owl-next {
+	    right: -2.1rem;
+	}
+}
+@media only screen and (max-width: 991.5px){
+	.top_section p {
+	    width: 80%;
+	}	    
+	.pt-5 {
+	    padding-top: 4.45rem !important;
+	}
+	.navbar-light .navbar-nav .nav-link {
+	    margin-left: 0.45rem;
+	}
+	.navbar-light .navbar-nav button{
+		margin-left: 1.05rem;
+	}
+	.top_section {
+	    padding: 8.9rem 0;
+	    padding-top: 7.9rem;
+	}
+	.core_value{
+		padding-bottom: 13.25rem;
+	}
+	.cv_inner .col-md-6 {
+	    margin-bottom: 2.5rem;
+	}
+	.ab_heading h3 {
+	    margin-top: -2.7rem !important;
+	}
+	.about_us_inner .ab_img {
+	    align-self: center;
+	}
+	.about_us_inner .ab_desc {
+	    padding-left: 15px;
+	}
+	.blog_inner .blg_side img {
+	    width: 3rem;
+	    margin-left: 25px;
+	    margin-bottom: 0.6rem;
+	}
+	.blog_inner .blg_side p.date {
+	    margin-bottom: 0.5rem;
+	}
+	.hp_inner .px-5 {
+	    padding-left: 0.1rem !important;
+	    padding-right: 0.1rem !important;
+	}
+	.tt_inner .col-md-6 {
+	    margin-bottom: 3rem;
+	}
+	.tt_inner .card-img-top {
+	    height: 231px;
+	}
+	.footer_bg {
+	    margin-top: 2.45rem;
+	}
+	.footer_wrapper {
+	    padding: 5.1rem 1.5rem;
+	}
+	.ft_inner h4 {
+	    font-size: 1.4rem;
+	}
+}
+@media only screen and (max-width: 767.5px){
+
+	.navbar-light .navbar-nav input.search {
+	    bottom: -3.3rem;
+	    right: unset;
+	    left: 0;
+	}
+	.top_section {
+	    padding: 5.9rem 0;
+	    padding-top: 5.9rem;
+	}
+	.top_section h2.display-4 {
+	    font-size: 2.4rem;
+	}
+	/*core value*/
+	.core_value .cv_inner .col-md-4 img {
+	    width: 10rem;
+	}
+	.core_value .cv_inner .col-12 h4 {
+	    margin-top: 1.5rem;
+	}
+	.core_value .cv_inner .col-12 p {
+	    width: 70%;
+	    margin: 0 auto;
+	}
+	.cv_inner .col-md-6 {
+	    margin-bottom: 4.5rem;
+	}
+	.cv_inner .col-12 {
+	    text-align: center;
+	}
+	/*about*/
+	.ab_heading h3 {
+	    margin-top: -7.7rem !important;
+	}
+	.about_us_inner .ab_img {
+	    margin-bottom: 2rem;
+	}
+	.about_us_inner {
+	    text-align: center;
+	}
+	/*blog*/
+	.blog_inner .col-md-6 {
+	    margin-bottom: 4rem;
+	}
+	.blog{
+		margin-bottom: 1.5rem;
+	}
+	/*class*/
+	.cl_inner .owl-nav .owl-next {
+	    top: 43%;
+	}
+	.cl_inner .owl-nav .owl-prev {
+	    top: 43%;
+	}
+	.cl_heading .mb-5 {
+	    margin-bottom: 2rem !important;
+	}
+	/*teachers*/
+	.tt_inner .card-img-top {
+	    height: 354px;
+	    border-radius: 7px;
+	}
+	/*happy parent*/
+	.hp_heading .mb-5 {
+	    margin-bottom: 1.5rem !important;
+	}
+	.hp_wrapper .owl-carousel .owl-item img{
+		width: 10rem;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+	}
+	.hp_inner .hp .col-12 {
+	    text-align: center;
+	}
+	/*footer*/
+	.ft_inner h4 {
+	    margin-bottom: 0.75rem;
+	}
+	.ft_inner .col-12 {
+	    margin-bottom: 2.5rem;
+	    padding: 0 7rem;
+	}
+	.footer_wrapper{
+		padding-bottom: 1.1rem;
+	}
+	.footer_wrapper ul {
+	    padding-left: 3rem;
+	}
+	.footer_wrapper ul li{
+		text-align: left;
+	}
+	.ql_wrapper ul{
+		padding-left: 0;
+	}
+	.ql_wrapper ul li {
+	    text-align: center;
+	}
+}
+@media only screen and (max-width: 575.5px){
+	.top_section h2.display-4 {
+    	font-size: 2rem;
+	}
+	.top_section {
+	    padding: 4.9rem 0;
+	        padding-top: 4.9rem;
+	    padding-top: 3.9rem;
+	}
+	.core_value .cv_inner .col-md-4 img {
+	    width: 7rem;
+	}
+	.core_value .cv_inner .col-12 p {
+	    width: 80%;
+	    margin: 0 auto;
+	}
+	.ab_heading h3 {
+	   	padding: 6.5rem 4rem;
+	    padding-left: 2rem;
+	    padding-top: 6.5rem !important;
+	    margin-left: 2rem;
+	}
+	.ab_heading h3 {
+	    margin-top: -10rem !important;
+	}
+	
+	/*blog*/
+	.blog_inner .col-md-6 {
+	    padding-left: 15px;
+	}
+	.blog{
+		padding-bottom: 2.5rem;
+	}
+	.blog_inner .blg_side {
+	    top: 0;
+	    left: -13px;
+	}
+	.blog_inner .blg_side img {
+	    width: 2.7rem;
+	    margin-left: 35px;
+	    margin-bottom: 0.2rem;
+	}
+	.blog_inner .blg_side p, .blog_inner .blg_side span {
+	    padding: 5px 9px;
+	}
+	.blog_inner .blg_side p.date {
+	    margin-bottom: 0.4rem;
+	    font-size: 1rem;
+	    margin-left: 0.5rem;
+	}
+	.blog_inner .blg_side span.comment {
+	    font-size: 1rem;
+	    margin-left: 1.2px;
+	}
+	/*class*/
+	.cl_inner .owl-nav .owl-prev {
+	    left: -1.1rem;
+	}
+	.cl_inner .owl-nav .owl-next {
+	    right: -1.1rem;
+	}
+	/*happy parents*/
+	.hp_wrapper .owl-carousel .owl-item img {
+	    width: 7rem;
+	 }
+	 .hp_heading .mb-5 {
+	     margin-bottom: 2rem !important;
+	 }   
+	/*teachers*/
+	.tt_inner .card-img-top {
+	    height: 241px;
+	    border-radius: 7px;
+	}
+	/*footer*/
+	.ft_inner form {
+	    max-width: 300px;
+	    margin: 0 auto;
+	}
+	.ft_inner .col-12 {
+	    padding: 0;
+	}
+	.footer_wrapper ul {
+	    padding-left: 2rem;
+	    max-width: 257px;
+	    margin: 0 auto;
+	}
+	.ql_wrapper ul {
+	    padding-left: 0;
+	}
+}
+

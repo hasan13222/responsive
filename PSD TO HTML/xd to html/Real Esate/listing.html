@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Real Estate</title>
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/dac5c0dc0b.js" crossorigin="anonymous"></script>
+	<!-- lato font -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- jquery popper bootstrap js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- style css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/listing.css">
+	<!-- responsive css -->
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+	<div class="container-fluid header_n_topSection text-white">
+		<header>
+			<!-- NAVIGATION SECTION -->
+			<div class="container">
+				<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				  <a class="navbar-brand" href="#"><h1 class="text-white">Real Estate</h1></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				    <ul class="navbar-nav ml-auto">
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="index.html">Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="aboutus.html">About</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link badge active" href="listing.html">Listing</a>
+				      </li> 
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="blog.html">Blog</a>
+				      </li> 
+				      <li class="nav-item">
+				        <a class="nav-link badge" href="contactus.html">Contact</a>
+				      </li>
+				    </ul>
+				  </div>  
+				</nav>
+			</div>
+			<!-- END OF NAVIGATION -->
+		</header>
+
+		<!-- top SECTION -->
+		<div class="container top_section_wrapper">		
+			<div class="row text-center">
+				<div class="col-12">
+					<h2 class="display-4">Listing</h2>
+				</div>
+			</div>
+		</div>
+		<!-- END OF top SECTION -->
+	</div>
+
+	<!-- PROPERTY SEARCH SECTION -->
+	<div class="container search_property_wrapper">
+		<form action="/action_page.php">
+		   	<!-- form input parts -->
+		     <div class="row">
+		     	<div class="col-md-3 col-12">
+		     		<label for="sel1">Location</label>
+		     		<select class="form-control" id="sel1" name="sellist1">
+		     		  <option class="text-light" selected>locality Name</option>
+		     		  <option class="text-light">NSW</option>
+		     		  <option class="text-light">DK</option>
+		     		  <option class="text-light">CA</option>
+		     		</select>
+		     	</div>
+		     	<div class="col-md-3 col-12">
+		     		<label for="sel2">Property Type</label>
+		     		<select class="form-control" id="sel2" name="sellist2">
+		     		  <option class="text-light" selected>Type</option>
+		     		  <option class="text-light">NSW</option>
+		     		  <option class="text-light">DK</option>
+		     		  <option class="text-light">CA</option>
+		     		</select>
+		     	</div>
+		     	<div class="col-md-3 col-12">
+		     		<label for="sel3">Price Limit</label>
+		     		<select class="form-control" id="sel3" name="sellist3">
+		     		  <option class="text-light" selected>$50000</option>
+		     		  <option class="text-light">$20000</option>
+		     		  <option class="text-light">$10000</option>
+		     		  <option class="text-light">$30000</option>
+		     		</select>
+		     	</div>
+		     	<div class="col-md-3 col-12">
+		     		<button type="submit" class="btn btn_purple text-white">Search Property</button>
+		     	</div>
+		     </div>
+		     <!-- end of form input parts -->
+		 </form>
+	</div>				
+	<!-- END OF PROPERTY SEARCH SECTION -->
+
+	<!-- EXCLUSIVE OFFER SECTION -->
+	<div class="container ex_offer_wrapper">
+		<div class="row ex_offer">
+			<!-- offer lists -->
+			<div class="col-12 col-md-6 col-lg-4 mt-5">
+				<div class="card shadow">
+				  <div class="card-header">
+				  	<img class="card-img-top" src="images/home/blue-home.png" alt="Card image">
+				  	<span class="sale badge">For Sale</span>
+				  	<img src="images/home/owner1.png" alt="owner photo" class="owner_photo">
+				  </div>
+				  <div class="card-body">
+				    <h4 class="card-title text-dark">Blue View Home</h4>
+				    <p class="card-text text-light">Sydney, Australia</p>
+				  </div>
+				  <div class="card-footer">
+				  	<div class="row">
+				  		<div class="col-3">
+				  			<div class="bed_wrap"><img src="images/home/bed.png" alt="bed" class="bed"></div>
+				  			<p>3 Beds</p>
+				  		</div>
+				  		<div class="col-3">
+				  			<div class="bt_wrap"><img src="images/home/bath-tub.png" alt="bath tub" class="bath_tub"></div>
+				  			<p>3 Baths</p>
+				  		</div>
+				  		<div class="col-6 text-right">
+				  			<p class="text-dark">
+				  				$5060
+				  			</p>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div><!-- end of first single offer -->
+			<div class="col-12 col-md-6 col-lg-4 mt-5">
+				<div class="card shadow">
+				  <div class="card-header">
+				  	<img class="card-img-top" src="images/home/green-park.png" alt="Card image">
+				  	<span class="sale badge">For Sale</span>
+				  	<img src="images/home/owner1.png" alt="owner photo" class="owner_photo">
+				  	<span class="feature">Featured</span>
+				  </div>
+				  <div class="card-body">
+				    <h4 class="card-title text-dark">Green Park Vesu</h4>
+				    <p class="card-text text-light">Sydney, Australia</p>
+				  </div>
+				  <div class="card-footer">
+				  	<div class="row">
+				  		<div class="col-3">
+				  			<div class="bed_wrap"><img src="images/home/bed.png" alt="bed" class="bed"></div>
+				  			<p>3 Beds</p>
+				  		</div>
+				  		<div class="col-3">
+				  			<div class="bt_wrap"><img src="images/home/bath-tub.png" alt="bath tub" class="bath_tub"></div>
+				  			<p>3 Baths</p>
+				  		</div>
+				  		<div class="col-6 text-right">
+				  			<p class="text-dark">
+				  				$5060
+				  			</p>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mt-5">
+				<div class="card shadow">
+				  <div class="card-header">
+				  	<img class="card-img-top" src="images/home/blue-home.png" alt="Card image">
+				  	<span class="sale badge">For Sale</span>
+				  	<img src="images/home/owner1.png" alt="owner photo" class="owner_photo">
+				  </div>
+				  <div class="card-body">
+				    <h4 class="card-title text-dark">Blue View Home</h4>
+				    <p class="card-text text-light">Sydney, Australia</p>
+				  </div>
+				  <div class="card-footer">
+				  	<div class="row">
+				  		<div class="col-3">
+				  			<div class="bed_wrap"><img src="images/home/bed.png" alt="bed" class="bed"></div>
+				  			<p>3 Beds</p>
+				  		</div>
+				  		<div class="col-3">
+				  			<div class="bt_wrap"><img src="images/home/bath-tub.png" alt="bath tub" class="bath_tub"></div>
+				  			<p>3 Baths</p>
+				  		</div>
+				  		<div class="col-6 text-right">
+				  			<p class="text-dark">
+				  				$5060
+				  			</p>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mt-5">
+				<div class="card shadow">
+				  <div class="card-header">
+				  	<img class="card-img-top" src="images/home/blue-home2.png" alt="Card image">
+				  	<span class="sale badge">For Sale</span>
+				  	<img src="images/home/owner1.png" alt="owner photo" class="owner_photo">
+				  	<span class="feature">Featured</span>
+				  </div>
+				  <div class="card-body">
+				    <h4 class="card-title text-dark">Green Park Vesu</h4>
+				    <p class="card-text text-light">Sydney, Australia</p>
+				  </div>
+				  <div class="card-footer">
+				  	<div class="row">
+				  		<div class="col-3">
+				  			<div class="bed_wrap"><img src="images/home/bed.png" alt="bed" class="bed"></div>
+				  			<p>3 Beds</p>
+				  		</div>
+				  		<div class="col-3">
+				  			<div class="bt_wrap"><img src="images/home/bath-tub.png" alt="bath tub" class="bath_tub"></div>
+				  			<p>3 Baths</p>
+				  		</div>
+				  		<div class="col-6 text-right">
+				  			<p class="text-dark">
+				  				$5060
+				  			</p>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mt-5">
+				<div class="card shadow">
+				  <div class="card-header">
+				  	<img class="card-img-top" src="images/home/blue-home3.png" alt="Card image">
+				  	<span class="sale badge">For Sale</span>
+				  	<img src="images/home/owner1.png" alt="owner photo" class="owner_photo">
+				  </div>
+				  <div class="card-body">
+				    <h4 class="card-title text-dark">Blue View Home</h4>
+				    <p class="card-text text-light">Sydney, Australia</p>
+				  </div>
+				  <div class="card-footer">
+				  	<div class="row">
+				  		<div class="col-3">
+				  			<div class="bed_wrap"><img src="images/home/bed.png" alt="bed" class="bed"></div>
+				  			<p>3 Beds</p>
+				  		</div>
+				  		<div class="col-3">
+				  			<div class="bt_wrap"><img src="images/home/bath-tub.png" alt="bath tub" class="bath_tub"></div>
+				  			<p>3 Baths</p>
+				  		</div>
+				  		<div class="col-6 text-right">
+				  			<p class="text-dark">
+				  				$5060
+				  			</p>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mt-5">
+				<div class="card shadow">
+				  <div class="card-header">
+				  	<img class="card-img-top" src="images/home/blue-home4.png" alt="Card image">
+				  	<span class="sale badge">For Sale</span>
+				  	<img src="images/home/owner1.png" alt="owner photo" class="owner_photo">
+				  	<span class="feature">Featured</span>
+				  </div>
+				  <div class="card-body">
+				    <h4 class="card-title text-dark">Green Park Vesu</h4>
+				    <p class="card-text text-light">Sydney, Australia</p>
+				  </div>
+				  <div class="card-footer">
+				  	<div class="row">
+				  		<div class="col-3">
+				  			<div class="bed_wrap"><img src="images/home/bed.png" alt="bed" class="bed"></div>
+				  			<p>3 Beds</p>
+				  		</div>
+				  		<div class="col-3">
+				  			<div class="bt_wrap"><img src="images/home/bath-tub.png" alt="bath tub" class="bath_tub"></div>
+				  			<p>3 Baths</p>
+				  		</div>
+				  		<div class="col-6 text-right">
+				  			<p class="text-dark">
+				  				$5060
+				  			</p>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mt-5">
+				<div class="card shadow">
+				  <div class="card-header">
+				  	<img class="card-img-top" src="images/home/blue-home.png" alt="Card image">
+				  	<span class="sale badge">For Sale</span>
+				  	<img src="images/home/owner1.png" alt="owner photo" class="owner_photo">
+				  </div>
+				  <div class="card-body">
+				    <h4 class="card-title text-dark">Blue View Home</h4>
+				    <p class="card-text text-light">Sydney, Australia</p>
+				  </div>
+				  <div class="card-footer">
+				  	<div class="row">
+				  		<div class="col-3">
+				  			<div class="bed_wrap"><img src="images/home/bed.png" alt="bed" class="bed"></div>
+				  			<p>3 Beds</p>
+				  		</div>
+				  		<div class="col-3">
+				  			<div class="bt_wrap"><img src="images/home/bath-tub.png" alt="bath tub" class="bath_tub"></div>
+				  			<p>3 Baths</p>
+				  		</div>
+				  		<div class="col-6 text-right">
+				  			<p class="text-dark">
+				  				$5060
+				  			</p>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div><!-- end of first single offer -->
+			<div class="col-12 col-md-6 col-lg-4 mt-5">
+				<div class="card shadow">
+				  <div class="card-header">
+				  	<img class="card-img-top" src="images/home/green-park.png" alt="Card image">
+				  	<span class="sale badge">For Sale</span>
+				  	<img src="images/home/owner1.png" alt="owner photo" class="owner_photo">
+				  	<span class="feature">Featured</span>
+				  </div>
+				  <div class="card-body">
+				    <h4 class="card-title text-dark">Green Park Vesu</h4>
+				    <p class="card-text text-light">Sydney, Australia</p>
+				  </div>
+				  <div class="card-footer">
+				  	<div class="row">
+				  		<div class="col-3">
+				  			<div class="bed_wrap"><img src="images/home/bed.png" alt="bed" class="bed"></div>
+				  			<p>3 Beds</p>
+				  		</div>
+				  		<div class="col-3">
+				  			<div class="bt_wrap"><img src="images/home/bath-tub.png" alt="bath tub" class="bath_tub"></div>
+				  			<p>3 Baths</p>
+				  		</div>
+				  		<div class="col-6 text-right">
+				  			<p class="text-dark">
+				  				$5060
+				  			</p>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mt-5">
+				<div class="card shadow">
+				  <div class="card-header">
+				  	<img class="card-img-top" src="images/home/blue-home.png" alt="Card image">
+				  	<span class="sale badge">For Sale</span>
+				  	<img src="images/home/owner1.png" alt="owner photo" class="owner_photo">
+				  </div>
+				  <div class="card-body">
+				    <h4 class="card-title text-dark">Blue View Home</h4>
+				    <p class="card-text text-light">Sydney, Australia</p>
+				  </div>
+				  <div class="card-footer">
+				  	<div class="row">
+				  		<div class="col-3">
+				  			<div class="bed_wrap"><img src="images/home/bed.png" alt="bed" class="bed"></div>
+				  			<p>3 Beds</p>
+				  		</div>
+				  		<div class="col-3">
+				  			<div class="bt_wrap"><img src="images/home/bath-tub.png" alt="bath tub" class="bath_tub"></div>
+				  			<p>3 Baths</p>
+				  		</div>
+				  		<div class="col-6 text-right">
+				  			<p class="text-dark">
+				  				$5060
+				  			</p>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mt-5">
+				<div class="card shadow">
+				  <div class="card-header">
+				  	<img class="card-img-top" src="images/home/blue-home2.png" alt="Card image">
+				  	<span class="sale badge">For Sale</span>
+				  	<img src="images/home/owner1.png" alt="owner photo" class="owner_photo">
+				  	<span class="feature">Featured</span>
+				  </div>
+				  <div class="card-body">
+				    <h4 class="card-title text-dark">Green Park Vesu</h4>
+				    <p class="card-text text-light">Sydney, Australia</p>
+				  </div>
+				  <div class="card-footer">
+				  	<div class="row">
+				  		<div class="col-3">
+				  			<div class="bed_wrap"><img src="images/home/bed.png" alt="bed" class="bed"></div>
+				  			<p>3 Beds</p>
+				  		</div>
+				  		<div class="col-3">
+				  			<div class="bt_wrap"><img src="images/home/bath-tub.png" alt="bath tub" class="bath_tub"></div>
+				  			<p>3 Baths</p>
+				  		</div>
+				  		<div class="col-6 text-right">
+				  			<p class="text-dark">
+				  				$5060
+				  			</p>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mt-5">
+				<div class="card shadow">
+				  <div class="card-header">
+				  	<img class="card-img-top" src="images/home/blue-home3.png" alt="Card image">
+				  	<span class="sale badge">For Sale</span>
+				  	<img src="images/home/owner1.png" alt="owner photo" class="owner_photo">
+				  </div>
+				  <div class="card-body">
+				    <h4 class="card-title text-dark">Blue View Home</h4>
+				    <p class="card-text text-light">Sydney, Australia</p>
+				  </div>
+				  <div class="card-footer">
+				  	<div class="row">
+				  		<div class="col-3">
+				  			<div class="bed_wrap"><img src="images/home/bed.png" alt="bed" class="bed"></div>
+				  			<p>3 Beds</p>
+				  		</div>
+				  		<div class="col-3">
+				  			<div class="bt_wrap"><img src="images/home/bath-tub.png" alt="bath tub" class="bath_tub"></div>
+				  			<p>3 Baths</p>
+				  		</div>
+				  		<div class="col-6 text-right">
+				  			<p class="text-dark">
+				  				$5060
+				  			</p>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mt-5">
+				<div class="card shadow">
+				  <div class="card-header">
+				  	<img class="card-img-top" src="images/home/blue-home4.png" alt="Card image">
+				  	<span class="sale badge">For Sale</span>
+				  	<img src="images/home/owner1.png" alt="owner photo" class="owner_photo">
+				  	<span class="feature">Featured</span>
+				  </div>
+				  <div class="card-body">
+				    <h4 class="card-title text-dark">Green Park Vesu</h4>
+				    <p class="card-text text-light">Sydney, Australia</p>
+				  </div>
+				  <div class="card-footer">
+				  	<div class="row">
+				  		<div class="col-3">
+				  			<div class="bed_wrap"><img src="images/home/bed.png" alt="bed" class="bed"></div>
+				  			<p>3 Beds</p>
+				  		</div>
+				  		<div class="col-3">
+				  			<div class="bt_wrap"><img src="images/home/bath-tub.png" alt="bath tub" class="bath_tub"></div>
+				  			<p>3 Baths</p>
+				  		</div>
+				  		<div class="col-6 text-right">
+				  			<p class="text-dark">
+				  				$5060
+				  			</p>
+				  		</div>
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<!-- end of offer lists -->
+		</div>
+		<div class="row">
+			<div class="col-12 text-center">
+				<button class="btn btn_purple text-white">
+					Load More
+				</button>
+			</div>
+		</div>
+	</div>												
+	<!-- END OF EXCLUSIVE OFFER SECTION -->
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="container-fluid footer_bg">
+			<div class="container footer_wrapper">
+				<div class="row ft_inner text-white">
+					<!-- real-estate -->
+					<div class="col-12 text-md-left text-center col-md-4">
+						<h4>Real Estate</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta laboriosam, perspiciatis, esse.</p>
+						<ul>
+							<li class="address">95 South Park Avenue, Australia</li>
+							<li class="call">1234 567890</li>
+							<li class="mail" href="mailto:realestate@support.info">
+								realestate@support.info
+							</li>
+						</ul>
+					</div><!-- end of real-estate -->
+					<!-- twitter-feeds -->
+					<div class="col-12 text-md-left tf_wrapper text-center col-md-4">
+						<h4>Twitter Feeds</h4>
+						<ul>
+							<li class="twitter">@findhouses all share them with me baby said inspet. <br><span class="time">about 5 days ago</span></li>
+							<li class="twitter">@findhouses all share them with me baby said inspet. <br><span class="time">about 5 days ago</span></li>
+							<li class="twitter">@findhouses all share them with me baby said inspet. <br><span class="time">about 5 days ago</span></li>
+						</ul>
+					</div><!-- end of twitter-feeds -->
+					<!-- newsletter -->
+					<div class="col-12 text-md-left text-center col-md-4">
+						<h4>Newsletter</h4>
+						<p>Sign Up for Our Newsletter to get Latest Updates and Offers. Subscribe to receive news in your inbox.</p>
+						<form action="post">
+							<input type="email" class="form-control text_purple" placeholder="Enter Your Email">
+							<button type="submit" class="btn send"><img src="images/home/send.png" alt="submit"></button>
+						</form>
+					</div><!-- end of newsletter -->
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- END OF FOOTER -->
+
+</body>
+</html>

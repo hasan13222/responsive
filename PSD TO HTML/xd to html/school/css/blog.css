@@ -1,0 +1,29 @@
+/*top section*/
+.top_section {
+  background: url('../images/about/about.jpg') no-repeat;
+  background-size: 100% 100%;
+  padding: 11.6rem 0;
+  }
+.top_section h2.display-4 {
+      color: #fff;
+  }
+/*blog*/
+.blog{
+	background: none;
+	background-color: #fff;
+	margin-top: 5rem;
+	padding-bottom: 2.5rem;
+}
+.blog_inner{
+	color: #121212 !important;
+}
+.blog_inner .blg_side p, .blog_inner .blg_side span{
+	color: #fff;
+}
+.blog_inner .col-md-6 {
+    margin-bottom: 4rem;
+}
+.blog_bottom button.px-4 {
+    padding: 0.25rem 3.075rem !important;
+    margin-top: 1rem;
+}

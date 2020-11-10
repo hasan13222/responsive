@@ -1,0 +1,243 @@
+.header_n_mainSection {
+    background-color: #0F3357;
+    padding-right: 0;
+    min-height: 702px;
+    height: 100vh;
+    overflow: hidden;
+}
+.meeting_wrapper .cl_id {
+  margin-top: 2.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #3a5775;
+}
+.meeting_wrapper .meeting_left {
+  padding-top: 4.3rem;
+  height: 100%;
+  max-width: 372px;
+  margin: 0 auto;
+}
+.meeting_wrapper .meeting_left .clt button {
+  border: 1px solid #FFFFFF;
+  border-radius: 10rem;
+  padding: 0.275rem 2.55rem;
+  font-size: 0.95rem;
+}
+.meeting_wrapper .meeting_left .clt span img {
+  width: 1.4rem;
+  margin: 0 0.5rem;
+}
+.meeting_wrapper .meeting_left .clt button.recoded {
+  margin-left: -1.9rem;
+}
+.meeting_wrapper .meeting_left .clt button:hover {
+  opacity: 1.0;
+  background-color: #fff;
+  color: #065CB3 !important;
+  position: relative;
+  z-index: 10;
+}
+.meeting_wrapper .meeting_left .clt button.active {
+  opacity: 1.0;
+  background-color: #fff;
+  color: #065CB3 !important;
+  position: relative;
+  z-index: 10;
+}
+.meeting_wrapper .cl_id p.id {
+  margin-bottom: 0;
+  font-size: 1.75rem;
+}
+.meeting_wrapper .col-lg-5 {
+  border-right: 2px solid #3a5775;
+}
+.meeting_wrapper .clb {
+  margin-top: 2.5rem;
+}
+.meeting_wrapper .clb h6 {
+  font-size: 0.95rem;
+  margin-bottom: 1.9rem;
+}
+.meeting_wrapper .clb .clb_desc {
+  background-color: #065CB3;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.meeting_wrapper .clb .clb_desc h2 {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+.meeting_wrapper .clb .clb_desc p {
+  margin-bottom: 0.4rem;
+  font-size: 0.93rem;
+}
+.meeting_right {
+  margin-top: 3.5rem;
+  margin-left: 2rem;
+}
+.meeting_right h1 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-size: 2.3rem;
+}
+.meeting_right p {
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+.meeting_right p.time {
+  margin-bottom: 0.8rem;
+}
+.meeting_right .cr_button {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.meeting_right .cr_button button {
+  border: 1px solid #FFF;
+  margin-right: 1.5rem;
+}
+.meeting_right .cr_button button:hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.91);
+    color: #065CB3 !important;
+}
+.meeting_right .cr_button button img {
+  width: 1rem;
+}
+.meeting_right .crb h3 {
+  text-decoration: underline;
+  font-size: 1.5rem;
+  color: #065CB3;
+}
+.meeting_right .crb .crb_single {
+  margin-top: 1.3rem;
+}
+.meeting_wrapper {
+  height: 100%;
+}
+.meeting_right .crb .crb_single:last-of-type {
+    margin-bottom: 3rem;
+}
+/*media query*/
+@media only screen and (max-width: 1199.5px){
+  .meeting_wrapper .meeting_left{
+    max-width: 330px;
+  }
+  .meeting_wrapper .meeting_left .clt button{
+    padding: 0.275rem 1.95rem;
+  }
+  .meeting_right .cr_button button {
+      margin-right: 0.7rem;
+  }
+  
+}
+@media only screen and (max-width: 991.5px){
+  .header_n_mainSection{
+    min-height: 732px;
+  }
+  .meeting_wrapper .meeting_left .clt button {
+      padding: 0.275rem 1.75rem;
+  }
+  .meeting_wrapper .cl_id {
+      margin: 2.5rem auto;
+      margin-right: 1.5rem;
+  }
+  .meeting_wrapper .clb .clb_desc{
+    margin-right: 1rem;
+  }
+  .meeting_right {
+      margin-left: 1rem;
+  }
+  .meeting_right h1{
+    font-size: 1.7rem;
+  }
+  .meeting_right p.time {
+      margin-bottom: 0.1rem;
+  }
+  .meeting_right .cr_button button {
+      padding: 0.175rem 0.9rem;
+      margin-bottom: 1rem;
+  }
+  .meeting_right .cr_button {
+      margin-bottom: 0.5rem;
+  }
+  .meeting_right .crb .crb_single {
+      margin-top: 0.8rem;
+  }
+}
+@media only screen and (max-width: 767.5px){
+  .meeting_right {
+      margin: 0 auto;
+      width: 20rem;
+      margin-top: 3rem;
+      text-align: center;
+  }
+  .meeting_wrapper .col-lg-5{
+    border-right: none;
+  }
+  .meeting_right .cr_button {
+      margin-bottom: 1.5rem;
+  }
+  .meeting_right .crb .crb_single {
+      margin-top: 1.5rem;
+  }
+  .meeting_wrapper .clb .clb_desc {
+    margin-right: 0;
+      text-align: center;
+  }
+  .meeting_wrapper .clb h6 {
+      text-align: center;
+  }
+  .meeting_wrapper .clb .clb_desc p {
+      margin-bottom: 0.2rem;
+  }
+  .meeting_wrapper .clt {
+      text-align: center;
+  }
+  .meeting_wrapper .cl_id{
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 575.5px){
+  .header_n_mainSection .main_section_wrapper{
+    padding-right: 35px;
+  }
+  .meeting_wrapper .col-lg-5{
+    border-right: none;
+  }
+  .meeting_wrapper .meeting_left .clt .col-12 {
+      padding: 0;
+  }
+  .meeting_wrapper .meeting_left .clt span img {
+      width: 1.1rem;
+      margin: 0;
+  }
+  .meeting_wrapper .meeting_left .clt button.recoded {
+      margin-left: -1.6rem;
+  }
+  .meeting_wrapper .meeting_left .clt button {
+      padding: 0.275rem 1.55rem;
+      font-size: 0.85rem;
+  }
+  .meeting_wrapper .clb .clb_desc h2 {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+  }
+  .meeting_wrapper .clb .clb_desc p {
+      margin-bottom: 0;
+      font-size: 0.85rem;
+  }
+  .meeting_right{
+    width: 16rem;
+  }
+  .meeting_right h1 {
+      font-size: 1.5rem;
+  }
+  .meeting_right .cr_button {
+      margin-bottom: 2.5rem;
+      margin-top: 4rem;
+  }
+  .meeting_right .crb h3{
+    font-size: 1.4rem;
+  }
+}
+

@@ -1,0 +1,127 @@
+.post_ad_wrapper {
+  max-width: 756px;
+  margin-top: 4.5rem;
+}
+.pad .current_location hr {
+  background-color: #C2C0C0;
+  height: 1.6px;
+  border: none;
+  background: -webkit-linear-gradient(right, #C2C0C0 90%, orange 2%);
+  background: -ms-linear-gradient(right, #C2C0C0 90%, orange 2%);
+  background: -moz-linear-gradient(right, #C2C0C0 90%, orange 2%);
+  background: linear-gradient(right, #C2C0C0 90%, orange 2%);
+}
+.pad .current_location {
+  position: relative;
+}
+.pad .current_location span {
+  position: absolute;
+  border-radius: 50%;
+  padding: 0.72rem 1.18rem;
+  color: #fff;
+  top: -25px;
+}
+.pad .current_location span.second,.pad .current_location span.third {
+  border: 1px solid #C2C0C0;
+  color: #C2C0C0;
+  background-color: #fff;
+}
+.pad .current_location span.first {
+  background-color: #FF9E55;
+  border: 1px solid #FF9E55;
+  left: 8%;
+}
+.pad .current_location span.third {
+  right: 8%;
+}
+.pad .current_location span.second {
+  left: 47%;
+}
+.pad h3 {
+  padding-top: 2.5rem;
+  margin-bottom: 1.3rem;
+}
+.pad .pad_form label {
+  font-size: 0.95rem;
+}
+.pad .pad_form input, .pad .pad_form select, .pad .pad_form textarea {
+  border: 1.6px solid #e6e6e6;
+  color: #B1B1B1;
+  font-size: 0.95rem;
+}
+.pad .pad_form input::placeholder {
+  color: #B1B1B1;
+  font-size: 0.95rem;
+}
+.pad .pad_slt {
+  position: relative;
+}
+.pad .pad_slt img {
+  position: absolute;
+  width: 1rem;
+  right: 2rem;
+  bottom: 0.6rem;
+}
+.pad .pad_slt select {
+  appearance: none;
+}
+.pad .pad_form .img_wrap img {
+  border: 2px solid #efefef;
+  width: 3.5rem;
+  padding: 1.7rem 3.5rem;
+  box-sizing: content-box;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.pad .pad_form .img_wrap .file_upload {
+    position: absolute;
+    left: -9999999999px;
+}
+.post_ad_wrapper .pad .top_add_logo button {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.pad .btn_wrap button img {
+  width: 1rem;
+  margin-top: -2px;
+}
+.post_ad_wrapper .pad .btn_orange {
+  padding: 0.475rem 3.2rem;
+}
+.post_ad_wrapper .pad .btn_orange{
+  margin-top: 2rem;
+}
+@media only screen and (max-width: 991.5px){
+  .post_ad_wrapper {
+    max-width: 615px;
+  }
+  .post_ad_wrapper .pad .btn_orange {
+      padding: 0.475rem 3.1rem;
+      margin-bottom: 3rem;
+  }
+  .pad .btn_wrap button {
+      margin-top: 2rem;
+      padding: 0.475rem 1.6rem !important;
+  }
+}
+@media only screen and (max-width: 767.5px){
+  .post_ad_wrapper {
+    max-width: 381px;
+  }
+  .pad .current_location span {
+      padding: 0.42rem 0.88rem;
+      top: -21px;
+  }
+  .pad .current_location span.second {
+      left: 45%;
+  }
+}
+@media only screen and (max-width: 479.5px){
+  .pad .pad_form .img_wrap img {
+      width: 3rem;
+      padding: 1.5rem 2.4rem;
+  }
+  .post_ad_wrapper .pad .btn_orange {
+      padding: 0.475rem 1.8rem;
+  }
+}

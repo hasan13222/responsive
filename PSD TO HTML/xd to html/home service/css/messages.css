@@ -1,0 +1,335 @@
+.messages_wrapper {
+  margin-top: 4.5rem;
+}
+.messages_inner {
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+}
+.messages_inner h3 {
+  padding-top: 1rem;
+  margin-bottom: 0.9rem;
+}
+.messages_inner ul li {
+  display: flex;
+  border-top: 1px solid #d2d2d2;
+  margin-left: -15px;
+}
+.messages_inner ul li img {
+  width: 5rem;
+  height: 4.7rem;
+}
+.messages_inner ul {
+  padding-left: 0;
+}
+.messages_inner .messages_lists .ml_inner {
+  padding-top: 0.9rem;
+  max-width: 270px;
+}
+.messages_inner .messages_lists .ml_inner h4 {
+  margin-bottom: 0.2rem;
+  font-weight: 400;
+}
+.messages_inner .messages_lists .ml_inner p {
+  display: inline-block;
+  line-height: 1.3;
+  width: 76%;
+  font-size: 0.8rem;
+}
+.messages_inner .messages_lists .ml_inner span {
+  margin-top: -19rem;
+  display: inline-block;
+  vertical-align: 10px;
+  background-color: #FF9E55;
+  padding: 2px 0.5rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  color: #fff;
+}
+.messages_inner .mes_left {
+  border-right: 1px solid #d2d2d2;
+  padding-right: 0;
+}
+.messages_wrapper .mi {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.messages_inner .mes_right .mrt {
+  display: flex;
+}
+.messages_inner .mes_right .mrt img {
+  width: 5rem;
+  height: 4.6rem;
+}
+.messages_inner .mes_right {
+  padding: 0;
+}
+.messages_inner .mes_right .mrt .mrt_inner h4 {
+  padding-top: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 1px;
+}
+.messages_inner .mrt .mrt_inner p {
+  color: #B1B1B1;
+  font-size: 0.8rem;
+}
+.messages_inner .mes_right .mrm {
+  display: flex;
+  margin-top: 0.5rem;
+}
+.messages_inner .mes_right .mrm img {
+  width: 2.5rem;
+  height: 2.25rem;
+  margin-left: 0.5rem;
+}
+.messages_inner .mes_right .mrm p {
+  padding-top: 0.4rem;
+}
+.messages_inner .mes_right .mrb {
+  margin-left: 0.7rem;
+}
+.messages_inner .mes_right .mrb .mrb1 p.main {
+  background-color: darkblue;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 10px;
+  line-height: 1.3;
+  margin-bottom: 0px;
+}
+.messages_inner .mes_right .mrb .mrb1 p.sub {
+  margin-left: 4px;
+  color: #B1B1B1;
+}
+.messages_inner .mes_right .mrb .mrb2 p.main {
+  background-color: darkblue;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 10px;
+  line-height: 1.3;
+}
+.messages_inner {
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+}
+.messages_inner h3 {
+  padding-top: 1rem;
+  margin-bottom: 0.9rem;
+}
+.messages_inner ul li {
+  display: flex;
+  border-top: 1px solid #d2d2d2;
+  margin-left: -15px;
+}
+.messages_inner ul li img {
+  width: 5rem;
+  height: 4.7rem;
+}
+.messages_inner ul {
+  padding-left: 0;
+}
+.messages_inner .messages_lists .ml_inner {
+  padding-top: 0.9rem;
+  max-width: 270px;
+}
+.messages_inner .messages_lists .ml_inner h4 {
+  margin-bottom: 0.2rem;
+  font-weight: 400;
+}
+.messages_inner .messages_lists .ml_inner p {
+  display: inline-block;
+  line-height: 1.3;
+  width: 76%;
+  font-size: 0.8rem;
+}
+.messages_inner .messages_lists .ml_inner span {
+  margin-top: -19rem;
+  display: inline-block;
+  vertical-align: 10px;
+  background-color: #FF9E55;
+  padding: 2px 0.5rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  color: #fff;
+}
+.messages_inner .mes_left {
+  border-right: 1px solid #d2d2d2;
+  padding-right: 0;
+}
+.messages_wrapper .mi {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.messages_inner .mes_right .mrt {
+  display: flex;
+}
+.messages_inner .mes_right .mrt img {
+  width: 5rem;
+  height: 4.6rem;
+}
+.messages_inner .mes_right {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.messages_inner .mes_right .mrt .mrt_inner h4 {
+  padding-top: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 1px;
+}
+.messages_inner .mrt .mrt_inner p {
+  color: #B1B1B1;
+  font-size: 0.8rem;
+}
+.messages_inner .mes_right .mrm {
+  display: flex;
+  margin-top: 0.5rem;
+}
+.messages_inner .mes_right .mrm img {
+  width: 2.5rem;
+  height: 2.25rem;
+  margin-left: 0.5rem;
+}
+.messages_inner .mes_right .mrm p {
+  padding-top: 0.4rem;
+}
+.messages_inner .mes_right .mrb {
+  margin-left: 0.7rem;
+}
+.messages_inner .mes_right .mrb .mrb1 p.main {
+  background-color: #2A4E96;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 10px;
+  line-height: 1.3;
+  margin-bottom: 0px;
+}
+.messages_inner .mes_right .mrb .mrb1 p.sub {
+  margin-left: 4px;
+  color: #B1B1B1;
+}
+.messages_inner .mes_right .mrb .mrb2 p.main {
+  background-color: #F1F1F1;
+  padding: 0.8rem;
+  border-radius: 10px;
+  line-height: 1.3;
+  margin-bottom: 0px;
+}
+.messages_inner .mes_right .mrb .mrb2 p.sub {
+  margin-right: 4px;
+  color: #B1B1B1;
+}
+.messages_inner .mes_right .mrb .mrb2 img {
+  width: 1rem;
+}
+.messages_inner .mes_right .mrb .mrb2 {
+  padding-right: 1.5rem;
+}
+.messages_inner .mes_right hr {
+  margin-top: auto;
+  height: 0.2px;
+  background-color: #f4f4f4;
+  width: 100%;
+}
+.messages_inner .mes_right .mes_right_bottom img {
+  width: 0.9rem;
+  margin-left: 8px;
+  background-color: #F1F1F1;
+  padding: 6px 9px;
+  box-sizing: content-box;
+  border-radius: 3px;
+}
+.messages_inner .mes_right .mrb .mrb2 p.sub {
+  margin-right: 4px;
+  color: #B1B1B1;
+}
+.messages_inner .mes_right .mrb .mrb2 img {
+  width: 1rem;
+}
+.messages_inner .mes_right .mes_right_bottom .col-1 {
+  align-self: center;
+}
+.messages_inner .mes_right .mes_right_bottom .col-10 {
+  padding: 0;
+  margin-bottom: 0;
+}
+.messages_inner .mes_right .mes_right_bottom {
+  margin-bottom: 15px;
+}
+.messages_inner .mes_right .mes_right_bottom .col-1 button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+.messages_inner .mes_right .mes_right_bottom .col-1 button img {
+  margin: 0;
+  background-color: #2A4E96;
+  margin-left: -6px;
+}
+.messages_inner .mes_right .mes_right_bottom .col-10 .form-control {
+  padding: 7px 0.775rem;
+  height: 33px;
+}
+.messages_inner .mes_right .mes_right_bottom .col-10 .form-control::placeholder {
+  font-size: 0.75rem;
+  color: #B1B1B1;
+}
+.messages_inner .mes_right .mes_right_bottom .col-1 button:hover img {
+  background-color: #050552;
+}
+@media only screen and (max-width: 1199.5px){
+	.messages_inner .mes_right .mes_right_bottom img{
+		padding: 4px 5px;
+	}
+}
+@media only screen and (max-width: 991.5px){
+	.messages_inner ul li img {
+	    width: 3rem;
+	    height: 2.6rem;
+	}
+	.messages_inner .messages_lists .ml_inner h4 {
+	    font-size: 1.2rem;
+	}
+	.messages_inner .messages_lists .ml_inner {
+	    padding-top: 7px;
+	}
+	.messages_inner .messages_lists .ml_inner span{
+		margin-left: 0;
+	}
+	.messages_inner .mes_right .mes_right_bottom .col-10{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.messages_inner .mes_right .mes_right_bottom .col-1 button img{
+		margin-left: -21px;
+	}
+	.footer_section_bg{
+		margin-top: 3.5rem !important;
+	}
+}
+@media only screen and (max-width: 767.5px){
+	.mes_right .mes_ex i {
+	  margin-left: 15px;
+	  color: #9a9595;
+	}
+	.mes_right .mes_ex {
+	  border-bottom: 1px solid #d2d2d2;
+	  padding-bottom: 1rem;
+	  padding-top: 1rem;	
+	}
+	.messages_inner .mes_left{
+		border-right: none;
+	}
+	.messages_inner .mes_right .mrb .mrb1 p.main{
+		margin-right: 2rem;
+	}
+	.messages_inner .mes_right{
+		display: none;
+	}
+}
+@media only screen and (max-width: 479.5px){
+	.messages_inner .mes_right .mes_right_bottom .col-10{
+		max-width: 75%;
+		padding-left: 25px;
+	}
+}

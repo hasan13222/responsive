@@ -1,0 +1,78 @@
+
+.map_wrapper {
+  margin-top: 4.5rem;
+}
+.map_wrapper .mpi .col-12 img {
+  width: 100%;
+}
+.map_wrapper .mpi .col-12 {
+  position: relative;
+}
+.map_wrapper .mpi .col-12 .pm img {
+  width: 1rem;
+  position: absolute;
+  right: 2.5rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+.map_wrapper .mpi .col-12 .pm img.plus {
+  bottom: 3.1rem;
+  padding: 0.5rem;
+  box-sizing: content-box;
+}
+.map_wrapper .mpi .col-12 .pm img.minus {
+  bottom: 1rem;
+  box-sizing: content-box;
+  padding: 0.1rem 0.5rem;
+  padding-bottom: 0.9rem;
+}
+.contact_wrapper {
+  margin-top: 4.5rem;
+}
+.contact_wrapper .ctw {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16);
+}
+.contact_wrapper .ctw{
+  margin-left: 0;
+  margin-right: 0px;
+}
+.contact_wrapper .ctw .ctw_left {
+  background-color: rgba(42, 78, 150, 1);
+  border-radius: 7px 0 0 7px;
+}
+.contact_wrapper .ctw_left ul li img {
+  width: 1.1rem;
+  margin-right: 0.5rem;
+}
+.contact_wrapper .ctw_left ul li p.number {
+  margin-left: 1.6rem;
+  margin-bottom: 15px;
+}
+.contact_wrapper .ctw_left ul {
+  padding-left: 0;
+}
+.contact_wrapper .ctw_left ul li {
+  list-style-type: none;
+}
+.contact_wrapper input {
+  border: 1.6px solid #e6e6e6;
+}
+.contact_wrapper label {
+  font-size: 0.95rem;
+}
+.ctw .ctw_left h3 {
+  padding-top: 2.2rem;
+  margin-bottom: 1rem;
+}
+.contact_wrapper .form_wrap {
+  padding: 1.5rem;
+  padding-top: 2rem;
+}
+.contact_wrapper .form_wrap .btn_orange {
+    margin-top: 1rem;
+}
+@media only screen and (max-width: 575.5px){
+  .contact_wrapper .ctw .ctw_left{
+    border-radius: 7px 7px 0 0;
+  }
+}

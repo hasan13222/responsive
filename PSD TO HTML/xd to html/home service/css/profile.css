@@ -1,0 +1,57 @@
+.profile_wrapper {
+  max-width: 610px;
+  margin-top: 4.5rem;
+}
+.pro_inner .pro {
+  border: 1px solid #d2d2d2;
+}
+.pro_inner .img_btn img {
+  width: 11rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+.pro_inner h3 {
+  padding-top: 2.08rem;
+  margin-bottom: 1.7rem;
+}
+.pro_inner .offset-md-5 button {
+  margin-top: 1.18rem;
+  margin-bottom: 1.5rem;
+}
+.pro_inner input::placeholder {
+  font-size: 0.95rem;
+  color: #B1B1B1;
+}
+.pro_inner input {
+  font-size: 0.95rem;
+  color: #B1B1B1;
+}
+.pro_inner label{
+	font-size: 0.95rem;
+	line-height: 1.2;
+	margin: 0;
+}
+.pro_pass input {
+  padding-top: 0.8rem;
+}
+.pro_inner .pro_form .col-4{
+	align-self: center;
+}
+@media only screen and (max-width: 991.5px){
+	.profile_wrapper{
+		margin-bottom: 3.5rem;
+	}
+	.pro_inner .img_btn img {
+	    width: 7rem;
+	}
+}
+@media only screen and (max-width: 767.5px){
+	.profile_wrapper {
+	    max-width: 425px;
+	}
+}
+@media only screen and (max-width: 479.5px){
+	.profile_wrapper {
+	    max-width: 294px;
+	}
+}

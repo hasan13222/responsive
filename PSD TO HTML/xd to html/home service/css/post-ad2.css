@@ -1,0 +1,23 @@
+
+.pad .current_location hr {
+  background: -webkit-linear-gradient(right, #C2C0C0 54%, orange 2%);
+  background: -ms-linear-gradient(right, #C2C0C0 54%, orange 2%);
+  background: -moz-linear-gradient(right, #C2C0C0 54%, orange 2%);
+  background: linear-gradient(right, #C2C0C0 54%, orange 2%);
+}
+.pad .pad_form .txt_nb {
+  color: #2A4E96;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+.pad .pad_slt span {
+  position: absolute;
+  right: -0.4rem;
+  top: 0.5rem;
+  color: #B1B1B1;
+}
+.pad .current_location span.second {
+    background-color: #FF9E55;
+    border: 1px solid #FF9E55;
+    color: #fff;
+}

@@ -1,0 +1,12 @@
+.blog_section_bg {
+    margin-top: 0 !important;
+}
+.blg_inner .col-12 {
+    margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 991.5px){
+	.blg_wrapper .btn_orange{
+		margin-bottom: 4rem;
+	}
+}

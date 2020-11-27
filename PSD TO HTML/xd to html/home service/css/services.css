@@ -1,0 +1,26 @@
+.category_bg {
+    background: none;
+    padding-top: 5rem;
+    padding-bottom: 2rem !important;
+}
+.top_section_bg .search_section .categories{
+	z-index: 10;
+}
+.ws_wrapper .btn_wrapper button {
+    margin-bottom: 3rem;
+}
+.bg_nvbl{
+	background-color: #2A4E96;
+}
+.ws_inner .col-12:hover{
+	background-color: #05057d;
+	color: #fff;
+}
+.ws_inner .col-12:hover a{
+	color: #fff;
+}
+@media only screen and (max-width: 575.5px){
+	.top_section_bg .search_section {
+	    max-width: 396px !important;
+	}
+}

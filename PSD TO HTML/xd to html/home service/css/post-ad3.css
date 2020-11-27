@@ -1,0 +1,16 @@
+.pad .current_location span.second {
+    background-color: #FF9E55;
+    border: 1px solid #FF9E55;
+    color: #fff;
+}
+.pad .current_location span.third {
+    background-color: #FF9E55;
+    border: 1px solid #FF9E55;
+    color: #fff;
+}
+.pad .current_location hr {
+  background: -webkit-linear-gradient(right, #C2C0C0 0%, orange 2%);
+  background: -ms-linear-gradient(right, #C2C0C0 0%, orange 2%);
+  background: -moz-linear-gradient(right, #C2C0C0 0%, orange 2%);
+  background: linear-gradient(right, #C2C0C0 0%, orange 2%);
+}

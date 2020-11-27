@@ -1,0 +1,34 @@
+.invoice_wrapper {
+  max-width: 960px;
+  margin-top: 4.5rem;
+}
+.invoice_wrapper th,.invoice_wrapper td {
+  font-size: 0.95rem;
+}
+.invoice_wrapper td a img {
+  width: 1rem;
+  margin-right: 8px;
+}
+.invoice_wrapper th {
+  font-weight: 400;
+}
+.invoice_wrapper td {
+  color: #B1B1B1;
+}
+@media only screen and (max-width: 1199.5px){
+	.invoice_wrapper {
+	    max-width: 880px;
+	}
+}
+@media only screen and (max-width: 991.5px){
+	.invoice_wrapper {
+	    max-width: 705px;
+	    margin-bottom: 3.5rem;
+	}
+}
+@media only screen and (max-width: 575.5px){
+	.invoice_wrapper {
+	    min-width: 574px !important;
+	    overflow-x: auto !important;
+	}
+}

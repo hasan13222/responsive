@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1199.5px){
+	.fltr_wrap .fltr_left form input {
+	    width: 10rem;
+	}
+	.fltr_wrap .fltr_right button.btn_azata {
+	    margin-right: 2.05rem;
+	}
+	.dashboard_wrapper .dbts_inner {
+	    margin-right: 0;
+	}
+	.dashboard_wrapper {
+	    padding-top: 1.42rem;
+	    padding-left: 1.42rem;
+	}
+	.dashboard_wrapper .dbts_inner .db_body i {
+	    margin-right: 1px;
+	}
+	.dashboard_wrapper .dbts_inner .db_body .lists {
+	    padding-left: 10px;
+	    padding-right: 0;
+	}
+}
+@media only screen and (max-width: 991.5px){
+	body {
+	    height: auto;
+	    min-height: auto;
+	}
+	.fltr_wrap .fltr_left .fbtn .fltr_img {
+	    margin: 0 0.38rem;
+	}
+	.fltr_wrap .fltr_right button.btn_cerca{
+		margin-left: 0.66rem;
+	}
+	.fltr_wrap .fltr_right button {
+	    padding: 0.575rem 0.85rem;
+	    padding-bottom: 0.6rem;
+	}
+	.bg-dark{
+		padding-left: 1.96rem;
+	}
+	nav .navbar-brand h1::after{
+		left: 13px;
+	}
+	.fltr_wrap .fltr_right button.btn_azata {
+	    margin-right: 2.05rem;
+	}
+	nav ul li button.btn_pro{
+		margin-left: 6px;
+	}
+}
+@media only screen and (max-width: 767.5px){
+	.filter_btn li ul {
+	  position: absolute;
+	  bottom: -3.4rem;
+	  left: 0;
+	  z-index: 1;
+	  background-color: #06294f;
+	  justify-content: center;
+	  width: 100%;
+	  flex-wrap: wrap;
+	  padding: 8px;
+	  border-top: 1px solid #04426b;
+	  display: none;
+	}
+	.filter_btn li ul.flex{
+		display: flex;
+	}
+	.fltr_wrap .d-block {
+	    width: 1rem;
+	    margin-bottom: -5px;
+	    margin-right: 5px;
+	}
+	nav ul li button.btn_cldr img {
+	    margin-bottom: 2px;
+	}
+	.sidebar {
+	    display: none;
+	    position: absolute;
+	    z-index: 10;
+	}
+	.sidebar .sidebar_bottom {
+	    margin-top: 6rem;
+	}
+	.sidebar .btn_riduci{
+		padding-left: 2.1rem;
+	}
+	.dashboard_wrapper .dbts_inner .db_body .lists {
+	    padding-left: 16px;
+	}
+}
+@media only screen and (max-width: 575.5px){
+	.navbar-nav{
+		flex-direction: row;
+	}
+}
+
+@media only screen and (max-width: 479.5px){
+	.filter_btn li ul{
+		bottom: -6.2rem;
+	}
+	.fltr_wrap .d-block{
+		margin-bottom: -4px;
+	}
+	.filter_btn li ul li.fltr_left {
+	    margin-bottom: 8px;
+	}
+}

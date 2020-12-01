@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ATS Next</title>
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/dac5c0dc0b.js" crossorigin="anonymous"></script>
+	<!-- source snas pro -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- jquery popper bootstrap js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- style css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+	<!-- navigation bar -->
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark text-white">
+	  <!-- Brand -->
+	  <a class="navbar-brand" href="#"><h1 class="d-none d-md-block">ATS Next</h1> <span class="d-block d-md-none menu_icon"><i class="fas fa-bars"></i></span></a>
+
+	  <!-- Navbar links -->
+	    <ul class="navbar-nav ml-auto filter_btn">
+	      <li class="nav-item fltr_wrap">
+	      	<img src="images/msearch.png" alt="" class="d-block d-md-none">
+	        <ul>
+	        	<li class="fltr_left">
+	        		<button class="fbtn"><span>Filtri</span> <img class="fltr_img" src="images/filter.png" alt=""></button>
+	        		<form action="">
+	        			<input type="text" placeholder="Smart search" class="form-control rounded-pill">
+	        			<button class="bl"><img src="images/cross.png" alt=""></button>
+	        			<button class="br" type="submit"><img src="images/gsearch.png" alt=""></button>
+	        		</form>
+	        	</li>
+	        	<li class="fltr_right">
+	        		<button class="btn btn_cerca">Cerca</button>
+	        		<button class="btn btn_azata">Avanzata</button>
+	        	</li>
+	        </ul>
+	      </li>
+	      <li class="nav-item">
+	        <button class="btn_cldr"><img src="images/calendar.png" alt=""></button>
+	      </li>
+	      <li class="nav-item">
+	       <button class="btn_ntf"><img src="images/notify.png" alt=""></button>
+	      </li>
+	      <li class="nav-item">
+	       	<a href="#" class="nav-link d-none d-lg-block">Ciao, Andrea</a>
+	      </li>
+	      <li>
+	      	<button class="btn_pro rounded">A</button>
+	      </li>
+	    </ul>
+	</nav><!-- end of navigation -->
+
+	<!-- main section -->
+	<div class="container-fluid main_section">
+		<div class="row ms_inner">
+			<!-- left sidebar -->
+			<div class="sidebar col-xl-2 col-lg-3 col-md-4 col-8">
+				<ul class="sidebar_top">
+					<li class="dashboard nav-item active">
+						<a href="#" class="nav-link">
+							<span class="rounded"><img src="images/dash.png" alt=""></span>
+							<h6>Dashboard <br><small>6 aggiornamenti</small></h6>							
+						</a>
+					</li>
+					<li class="ricerche nav-item">
+						<a href="#" class="nav-link">
+							<span class="rounded"><img src="images/dash-search.png" alt=""></span>
+							<h6>Ricerche</h6>
+						</a>
+					</li>
+					<li class="annunci nav-item">
+						<a href="#" class="nav-link">
+							<span class="rounded"><img src="images/documents.png" alt=""></span>
+							<h6>Annunci <br><small>12 nuovi</small></h6>							
+						</a>
+					</li>
+					<li class="candidati nav-item">
+						<a href="#" class="nav-link">
+							<span class="rounded"><img src="images/users.png" alt=""></span>
+							<h6>Candidati <br><small>2 nuovi</small></h6>
+							
+						</a>
+					</li>
+					<li class="clienti nav-item">
+						<a href="#" class="nav-link">
+							<span class="rounded"><img src="images/works.png" alt=""></span>
+							<h6>Clienti</h6>
+						</a>
+					</li>
+					<li class="pipelines nav-item">
+						<a href="#" class="nav-link">
+							<span class="rounded"><img src="images/pipeline.png" alt=""></span>
+							<h6>Pipelines</h6>
+						</a>
+					</li>
+				</ul>
+				<ul class="sidebar_bottom">
+					<li>
+						<button class="btn_help"><span><img src="images/help.png" alt=""></span> Assistenza</button>
+					</li>
+					<li>
+						<button class="btn_setting"><span><img src="images/setting.png" alt=""></span> impostazioni</button>
+					</li>
+				</ul>
+				<button class="btn_riduci"><span><img src="images/left-arrow.png" alt=""></span> Riduci</button>
+			</div>
+			<!-- end of left sidebar -->
+
+			<!-- dashboard -->
+			<div class="col-xl-10 col-lg-9 col-md-8 col-12 dashboard_wrapper">
+				<!-- dashboard top -->
+				<div class="row dashboard_in">
+					<!-- dash single -->
+					<div class="col-lg-4 col-md-6 dbt_single">
+						<div class="dbts_inner shadow rounded">
+							<div class="db_head">
+								<div class="clearfix">
+									<div class="float-left">
+										<h3>Candidati</h3>
+									</div>
+									<div class="float-right">
+										<i class="fas fa-ellipsis-v"></i>
+									</div>
+								</div>
+							</div>
+							<div class="db_body">
+								<div class="row">
+									<div class="col-12 text-center chart-wrap">
+										<canvas id="canvas" width=125 height=125></canvas>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-6 lists">
+										<ul>
+											<li class="umo">
+												<i class="fas fa-circle"></i>
+												<span>Uomo</span>
+											</li>
+											<li class="oto">
+												<i class="fas fa-circle"></i>
+												<span>Occupato</span>
+											</li>
+										</ul>
+									</div>
+									<div class="col-6 lists">
+										<ul>
+											<li class="dona">
+												<i class="fas fa-circle"></i>
+												<span>Donna</span>
+											</li>
+											<li class="dito">
+												<i class="fas fa-circle"></i>
+												<span>Disoccupato</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- dash single -->
+					<!-- dash single -->
+					<div class="col-lg-4 col-md-6 dbt_single">
+						<div class="dbts_inner shadow rounded">
+							<div class="db_head">
+								<div class="clearfix">
+									<div class="float-left">
+										<h3>Candidati</h3>
+									</div>
+									<div class="float-right">
+										<i class="fas fa-ellipsis-v"></i>
+									</div>
+								</div>
+							</div>
+							<div class="db_body">
+								<div class="row">
+									<div class="col-12 text-center chart-wrap">
+										<canvas id="canvas2" width=125 height=125></canvas>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-6 lists">
+										<ul>
+											<li class="umo">
+												<i class="fas fa-circle"></i>
+												<span>Uomo</span>
+											</li>
+											<li class="oto">
+												<i class="fas fa-circle"></i>
+												<span>Occupato</span>
+											</li>
+										</ul>
+									</div>
+									<div class="col-6 lists">
+										<ul>
+											<li class="dona">
+												<i class="fas fa-circle"></i>
+												<span>Donna</span>
+											</li>
+											<li class="dito">
+												<i class="fas fa-circle"></i>
+												<span>Disoccupato</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- dash single -->
+					<!-- dash single -->
+					<div class="col-lg-4 col-md-6 dbt_single">
+						<div class="dbts_inner shadow rounded">
+							<div class="db_head">
+								<div class="clearfix">
+									<div class="float-left">
+										<h3>Candidati</h3>
+									</div>
+									<div class="float-right">
+										<i class="fas fa-ellipsis-v"></i>
+									</div>
+								</div>
+							</div>
+							<div class="db_body">
+								<div class="row">
+									<div class="col-12 text-center chart-wrap">
+										<canvas id="canvas3" width=125 height=125></canvas>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-6 lists">
+										<ul>
+											<li class="umo">
+												<i class="fas fa-circle"></i>
+												<span>Uomo</span>
+											</li>
+											<li class="oto">
+												<i class="fas fa-circle"></i>
+												<span>Occupato</span>
+											</li>
+										</ul>
+									</div>
+									<div class="col-6 lists">
+										<ul>
+											<li class="dona">
+												<i class="fas fa-circle"></i>
+												<span>Donna</span>
+											</li>
+											<li class="dito">
+												<i class="fas fa-circle"></i>
+												<span>Disoccupato</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- dash single -->
+				</div>
+				<!-- end dashboard top -->
+
+				<!-- dashboard bottom -->
+				<div class="row db">
+					<div class="col-lg-8 col-12">
+						<div class="dash_btm shadow bg-white rounded">	
+							<div class="db_head">
+								<div class="clearfix">
+									<div class="float-left">
+										<h3>Attivita</h3>
+									</div>
+									<div class="float-right"><i class="fas fa-ellipsis-v"></i></div>
+								</div>
+							</div>
+							<div class="db_body">
+								<ul>
+									<li class="dbt">
+										<div class="img_wrap">
+											<img src="images/works.png" alt="">
+										</div>
+										<div class="desc">
+											<h4>Cliente</h4>
+											<p>Commento generico</p>
+										</div>
+									</li>
+									<li class="dbm">
+										<div class="img_wrap">
+											<img src="images/works.png" alt="">
+										</div>
+										<div class="desc">
+											<h4>Cliente</h4>
+											<p>Telefonate - per colloquio</p>
+										</div>
+									</li>
+
+									<li class="dbb">
+										<div class="img_wrap">
+											<img src="images/users.png" alt="">
+										</div>
+										<div class="desc">
+											<h4>Candidato</h4>
+											<p>Telefonate - di peresentazione</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end of dashboard bottom -->
+			</div><!-- end of dashboard -->
+		</div>
+	</div>
+	<!-- enf of main section -->
+
+	<!-- scripts -->
+	<script src="js/custom.js"></script>
+
+</body>
+</html>

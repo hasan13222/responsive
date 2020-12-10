@@ -501,7 +501,7 @@
 	    height: 2.2rem;
 	}
 	.brands_wrapper h3 {
-	    width: 59%;
+	    text-align: center;
 	}
 	.brands_wrapper h3 {
 	    margin: 3rem auto 1.5rem auto;
@@ -541,7 +541,7 @@
 	}
 
 	.brands_wrapper h3{
-		width: 60%;
+		width: 80%;
 	}
 	.brands_inner .col-6 {
 	    margin-bottom: 1rem;

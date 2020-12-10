@@ -267,6 +267,7 @@ h4 {
 .mkt_inner .img_wrap img {
 	width: auto;
     height: 98px;
+    max-width: 230px;
 }
 /*testimonial*/
 .ttmnl_wrapper h3 {

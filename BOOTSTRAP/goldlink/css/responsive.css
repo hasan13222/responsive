@@ -488,6 +488,9 @@
 	.fs_wrapper .fs_right .btn_icon .cleafix {
 	    width: 60%;
 	}
+	.fs_right .img_wrapper {
+	    margin-right: -2.5rem;
+	}
 	.ts_bg h3 {
 	    font-size: 1.25rem;
 	}

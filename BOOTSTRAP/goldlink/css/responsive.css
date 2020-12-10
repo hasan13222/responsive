@@ -306,6 +306,9 @@
 	.fs_wrapper .fs_right .btn_icon .cleafix {
 	    width: 50%;
 	}
+	.fs_inner .fs_right .img_wrapper {
+	    margin-right: -3.6rem;
+	}
 	.ss_bg {
 	    background: url('../images/ss-bg.png') no-repeat;
 	    background-size: 100% 450px;
@@ -351,7 +354,7 @@
 	}
 	.frth_inner .frth_left {
 	    order: 2;
-	    max-width: 370px;
+	    max-width: 480px;
 	    margin: 0 auto;
 	}
 	.frth_right {
@@ -532,11 +535,17 @@
 	    align-self: center;
 	    margin-left: 0.5rem;
 	}
+	.ttmnl_wrapper h3 {
+	    margin-top: 1.7rem;
+	}
 	.contact_left .lists {
-	    width: 95%;
+	    width: 96%;
 	}
 	.contact_wrapper .contact_left p {
 	    margin-bottom: 1.7rem;
+	}
+	.contact_wrapper .contact_left .lists ul li p{
+		margin-left: 0.4rem;
 	}
 }
 @media only screen and (max-width: 479.5px){
@@ -579,7 +588,7 @@
 	    margin-top: 1.4rem;
 	}
 	.contact_bg {
-	    padding-top: 20rem;
+	    padding-top: 18rem;
 	}
 	.contact_left .lists {
 	    width: 100%;

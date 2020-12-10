@@ -75,10 +75,11 @@ h4 {
   padding: 0;
 }
 .fs_wrapper .fs_right .col-6 img {
-  margin-top: -15px;
-  height: auto;
-  width: 80% !important;
-  box-shadow: 1px -69px 20px rgba(193, 191, 191, 0.21);
+    margin-top: -15px;
+    height: auto;
+    width: 85% !important;
+    box-shadow: 1px -69px 20px rgba(193, 191, 191, 0.21);
+    margin-left: -0.9rem;
 }
 .fs_wrapper .fs_right .col-3 img, .fs_wrapper .fs_right .col-6 img {
   width: 100%;

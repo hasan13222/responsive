@@ -381,6 +381,9 @@
 	    width: 2.1rem;
 	    font-size: 0.9rem;
 	}
+	.prcss_inner .prcss_right .float-right {
+	    width: 85%;
+	}
 	.prcss_inner h4 {
 	    font-size: 1rem;
 	}
@@ -398,8 +401,15 @@
 	  float: right;
 	  margin-top: -0.7rem;
 	}
+	.mkt_inner .col-12{
+		margin-bottom: 2.5rem;
+	}
+	.mkt_wrapper h3{
+		margin-top: 4.3rem;
+	}
 	.mkt_inner .col-12 h4{
 		margin-left: 0;
+		font-size: 1.3rem;
 	}
 	.mkt_inner .col-12 p{
 		width: 100%;

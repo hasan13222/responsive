@@ -485,6 +485,9 @@
 	}
 }
 @media only screen and (max-width: 575.5px){
+	h3{
+		margin-top: 3rem;
+	}
 	.fs_wrapper .fs_right .btn_icon .cleafix {
 	    width: 60%;
 	}
@@ -496,6 +499,12 @@
 	}
 	.ts_inner h4 {
 	    height: 2.2rem;
+	}
+	.brands_wrapper h3 {
+	    width: 59%;
+	}
+	.brands_wrapper h3 {
+	    margin: 3rem auto 1.5rem auto;
 	}
 	.mkt_inner .col-12{
 		display: flex;
@@ -532,7 +541,7 @@
 	}
 
 	.brands_wrapper h3{
-		width: 80%;
+		width: 59%;
 	}
 	.brands_inner .col-6 {
 	    margin-bottom: 1rem;

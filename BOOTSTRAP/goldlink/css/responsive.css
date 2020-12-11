@@ -114,8 +114,8 @@
 }
 @media only screen and (max-width: 991.5px){
 	h1 {
-	    font-size: 3rem;
-	    width: 70%;
+	    font-size: 2rem;
+	    width: 50%;
 	    text-align: center;
 	    margin: 0 auto;
 	}
@@ -126,11 +126,11 @@
 		padding-top: 3.25rem;
 	}
 	.fs_wrapper .fs_left p {
-	    font-size: 1.2rem;
-	    width: 80%;
+	    font-size: 1rem;
+	    width: 65%;
 	    text-align: center;
 	    margin: 0 auto;
-	    margin-bottom: 5rem;
+	    margin-bottom: 2.5rem;
 	}
 	.header_wrapper nav a img {
 	    margin-left: -1.5rem;
@@ -150,14 +150,20 @@
 	    margin-top: 1rem;
 	}
 	.fs_wrapper .fs_right .btn_icon .cleafix {
-	    width: 65%;
+	    width: 38%;
 	}
 	.fs_inner .fs_right .img_wrapper {
-	    margin-left: 0rem;
 	    margin-right: -3.1rem;
+	    max-width: 650px;
+	    margin: 0 auto;
+	    padding-left: 3.5rem;
 	}
 	.fs_wrapper .fs_right .col-6 img {
 	    height: 409px;
+	}
+	.fs_wrapper .fs_right .col-6 img {
+	    box-shadow: 1px -14px 20px rgba(193, 191, 191, 0.21);
+	    margin-left: -0.9rem;
 	}
 	.ts_bg h3{
 		width: 70%;
@@ -327,7 +333,14 @@
 	    width: 50%;
 	}
 	.fs_inner .fs_right .img_wrapper {
-	    margin-right: -3.6rem;
+	    margin-right: 1.8rem;
+	}
+	.fs_inner .fs_right .img_wrapper {
+	    max-width: 100%;
+	    padding-left: 3.5rem;
+	}
+	.fs_wrapper .fs_left p{
+		margin-bottom: 0;
 	}
 	.ss_bg {
 	    background: url('../images/ss-bg.png') no-repeat;
@@ -364,6 +377,9 @@
 	}
 	.ts_inner h4{
 		height: 1.6rem;
+	}
+	.ts_inner .img_wrap {
+	    width: 90%;
 	}
 	.ts_inner .col-6 {
 	    margin-bottom: 2rem;
@@ -518,17 +534,38 @@
 	}
 }
 @media only screen and (max-width: 575.5px){
+	h1 {
+    width: 100%;
+	}
 	h3{
 		margin-top: 3rem;
+	}
+	.fs_wrapper .fs_left p{
+		width: 100%;
 	}
 	.fs_wrapper .fs_right .btn_icon .cleafix {
 	    width: 60%;
 	}
-	.fs_right .img_wrapper {
-	    margin-right: -2.5rem !important;
+	.fs_inner .fs_right .img_wrapper {
+	    margin-right: 0rem !important;
+	    padding-left: 0;
+	    max-width: 500px;
+	}
+	.fs_wrapper .fs_left p{
+		margin-bottom: 0.1rem;
+	}
+	.fs_wrapper .fs_right .col-6 img {
+	    width: 100% !important;
+	    margin-left: -0.7rem;
+	}
+	.fs_wrapper .fs_right .col-3:last-of-type img {
+	    margin-left: -55%;
 	}
 	.ts_bg h3 {
 	    font-size: 1.25rem;
+	}
+	.ts_inner .img_wrap {
+	    width: 82%;
 	}
 	.ts_inner h4 {
 	    height: 2.2rem;

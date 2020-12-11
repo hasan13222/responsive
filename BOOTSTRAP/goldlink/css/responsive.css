@@ -142,6 +142,10 @@
 	.fs_wrapper .fs_right .btn_icon .cleafix {
 	    width: 65%;
 	}
+	.fs_inner .fs_right .img_wrapper {
+	    margin-left: 0rem;
+	    margin-right: -3.1rem;
+	}
 	.fs_wrapper .fs_right .col-6 img {
 	    height: 409px;
 	}

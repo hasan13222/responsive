@@ -119,8 +119,28 @@
 	    text-align: center;
 	    margin: 0 auto;
 	}
+	h2 {
+	    font-size: 2rem;
+	}
 	h3 {
-	    font-size: 2.5rem;
+	    font-size: 2rem;
+	    margin-top: 4rem;
+	    margin-bottom: 3.3rem;
+	}
+	.btn_orange {
+	    font-size: 1.25rem;
+	}
+	.ss_bg {
+	    padding-bottom: 18.7rem;
+	}
+	.ss_wrapper h4 {
+	    font-size: 1.4rem;
+	    width: 84%;
+	    margin-top: 0rem;
+	    margin-bottom: 1.7rem;
+	}
+	.ss_wrapper button {
+	    margin-top: 0.3rem;
 	}
 	.fs_bg{
 		padding-top: 3.25rem;
@@ -147,7 +167,7 @@
 	    font-size: 12px;
 	}
 	.fs_wrapper .fs_right .btn_icon {
-	    margin-top: 1rem;
+	    margin-top: -0.5rem;
 	}
 	.fs_wrapper .fs_right .btn_icon .cleafix {
 	    width: 38%;
@@ -165,9 +185,16 @@
 	    box-shadow: 1px -14px 20px rgba(193, 191, 191, 0.21);
 	    margin-left: -0.9rem;
 	}
-	.ts_bg h3{
-		width: 70%;
-		margin-bottom: 4.8rem;
+	.ts_bg h3 {
+	    font-size: 1.75rem;
+	}
+	.ts_bg h3 {
+	    width: 70%;
+	    margin-bottom: 3.5rem;
+	}
+	.ts_wrapper button {
+	    margin-bottom: 2.8rem;
+	    margin-top: 1.3rem;
 	}
 	.ts_inner h4 {
 	    width: 100%;
@@ -197,6 +224,9 @@
 	.prcss_inner .prcss_right .float-right p {
 	    font-size: 13px;
 	}
+	.brands_wrapper h3 {
+	    margin: 4rem auto 1.8rem auto;
+	}
 	.brands_inner{
 		justify-content: center;
 	}
@@ -210,8 +240,8 @@
 	    width: 86%;
 	}
 	.ttmnl_wrapper h3 {
-	    margin-top: 3rem;
-	    margin-bottom: 0.7rem;
+	    margin-top: 1rem;
+	    margin-bottom: 0.4rem;
 	}
 	.ttmnl_inner .clearfix .float-left{
 		width: 40%;
@@ -237,8 +267,47 @@
 	.ttmnl_wrapper h6{
 		margin-bottom: 3.1rem;
 	}
+	.ttmnl_wrapper .owl-nav {
+	    margin-top: 1rem;
+	}
+	.ttmnl_wrapper .owl-nav button.owl-prev:hover{
+		background: url('../images/left-arrow.png') no-repeat;
+		opacity: 0.8;
+		background-size: 3rem;
+		line-height: 1;
+		width: 3rem;
+		height: 2.8rem;
+	}
+	.ttmnl_wrapper .owl-nav button.owl-next:hover{
+		background:  url('../images/right-arrow.png') no-repeat;
+		opacity: 0.8;
+		background-size: 3rem;
+		line-height: 1;
+		width: 3rem;
+		height: 2.8rem;
+		margin-left: 0.7rem;
+	}
+	.ttmnl_wrapper .owl-nav button.owl-prev {
+	  background: url('../images/left-arrow.png') no-repeat;
+	  background-size: 3rem;
+	  line-height: 1;
+	  width: 3rem;
+	  height: 2.8rem;
+	}
+	.ttmnl_wrapper .owl-nav button.owl-next {
+	  background: url('../images/right-arrow.png') no-repeat;
+	  background-size: 3rem;
+	  line-height: 1;
+	  width: 3rem;
+	  height: 2.8rem;
+	  margin-left: 0.7rem;
+	}
 	.contact_bg{
-		padding-top: 24rem;
+		padding-top: 20rem;
+		padding-bottom: 4.5rem;
+	}
+	.contact_wrapper .contact_left p {
+	    margin-bottom: 1rem;
 	}
 	.contact_wrapper .contact_left {
 	    text-align: center;
@@ -254,7 +323,7 @@
 	}
 	.contact_wrapper .contact_right p {
 	    font-size: 1.2rem;
-	    margin-top: 3rem;
+	    margin-top: 1rem;
 	}.contact_wrapper .contact_left .lists ul li p{
 		margin-left: 0.3rem;
 	}
@@ -370,7 +439,8 @@
 	.ts_bg h3 {
 	    font-size: 1.55rem;
 	    line-height: 1.2;
-	    margin-bottom: 3.8rem;
+	    margin-bottom: 2.8rem;
+	    margin-top: 2rem;
 	}
 	.ts_bg {
 	    margin-top: -17rem;
@@ -387,6 +457,10 @@
 	.ts_wrapper button {
 	    margin-bottom: 3.8rem;
 	    margin-top: 1.3rem;
+	}
+	.prcss_wrapper h3 {
+	    margin-top: 3rem;
+	    margin-bottom: -1rem;
 	}
 	.frth_inner .frth_left {
 	    order: 2;
@@ -421,10 +495,13 @@
 	    font-size: 0.9rem;
 	}
 	.prcss_inner .prcss_right .float-right {
-	    width: 85%;
+	    width: 81%;
 	}
 	.prcss_inner h4 {
 	    font-size: 1rem;
+	}
+	.brands_wrapper h3 {
+	    margin: 2rem auto 1.1rem auto;
 	}
 	.mkt_inner .img_wrap img {
 	    width: 67%;
@@ -444,7 +521,7 @@
 		margin-bottom: 2.5rem;
 	}
 	.mkt_wrapper h3{
-		margin-top: 4.3rem;
+		margin-top: 2.3rem;
 	}
 	.mkt_inner .col-12 h4{
 		margin-left: 0;
@@ -503,15 +580,22 @@
 	  margin-left: 0.7rem;
 	}
 	.ttmnl_wrapper .owl-nav {
-	  margin-top: 2.5rem;
+	  margin-top: -2rem;
 	}
 	.ttmnl_wrapper .col-12 {
 	    margin-bottom: 3rem;
+	}
+	.contact_bg {
+	    padding-top: 17rem;
+	    padding-bottom: 3.5rem;
 	}
 	.contact_left .lists {
 	    width: 75%;
 	    margin: 0 auto;
 	    text-align: left;
+	}
+	.contact_wrapper .contact_right p{
+		margin-top: 0;
 	}
 	.contact_wrapper .contact_right form .form-control {
 	    font-size: 1rem;
@@ -538,7 +622,7 @@
     width: 100%;
 	}
 	h3{
-		margin-top: 3rem;
+		margin-top: 2rem;
 	}
 	.fs_wrapper .fs_left p{
 		width: 100%;
@@ -561,6 +645,9 @@
 	.fs_wrapper .fs_right .col-3:last-of-type img {
 	    margin-left: -55%;
 	}
+	.prcss_inner {
+	    margin-top: 3rem;
+	}
 	.ts_bg h3 {
 	    font-size: 1.25rem;
 	}
@@ -574,7 +661,7 @@
 	    text-align: center;
 	}
 	.brands_wrapper h3 {
-	    margin: 3rem auto 1.5rem auto;
+	    margin: 2rem auto 1.5rem auto;
 	}
 	.mkt_inner .col-12{
 		display: flex;
@@ -603,6 +690,9 @@
 	}
 	.contact_wrapper .contact_left .lists ul li p{
 		margin-left: 0.4rem;
+	}
+	.contact_wrapper .contact_right p{
+		margin-top: 0;
 	}
 }
 @media only screen and (max-width: 479.5px){

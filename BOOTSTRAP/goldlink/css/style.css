@@ -230,6 +230,7 @@ h4 {
 .brands_wrapper h3 {
   margin: 6rem auto 2.8rem auto;
   width: 51%;
+  text-align: center;
 }
 .brands_inner {
   max-width: 970px;

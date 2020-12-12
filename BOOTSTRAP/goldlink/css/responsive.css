@@ -642,17 +642,11 @@
 	.fs_wrapper .fs_right .col-3:last-of-type img {
 	    margin-left: -55%;
 	}
-	.ss_wrapper .ss_inner {
-	    max-width: 368px;
-	    margin-top: 14rem;
-	    margin-left: auto;
-	    margin-right: auto;
-	    text-align: center;
+	.ss_wrapper h4{
+		width: 100%;
 	}
-	.ss_wrapper h4 {
-	    font-size: 18px;
-	    width: 88%;
-	    margin: 1.6rem auto;
+	.ss_wrapper .ss_inner {
+	    max-width: 253px;
 	}
 	.prcss_inner {
 	    margin-top: 3rem;
@@ -706,6 +700,16 @@
 }
 @media only screen and (max-width: 479.5px){
 	.fs_wrapper .fs_right .btn_icon .cleafix {
+	    width: 100%;
+	}
+	.ss_wrapper .ss_inner {
+	    margin-top: 14rem;
+	    margin-left: auto;
+	    margin-right: auto;
+	    text-align: center;
+	}
+	.ss_wrapper h4 {
+	    font-size: 14px;
 	    width: 100%;
 	}
 	.ts_bg h3 {
